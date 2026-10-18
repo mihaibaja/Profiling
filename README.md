@@ -1,4 +1,4 @@
-# TFG - Profiling de benchmarks RISC-V Vector con RAVE
+# Profiling RAVE - TFG
 
 Scripts y resultados del perfilado de benchmarks **RVV** con **RAVE**. El repositorio
 principal contiene los scripts, la documentación y los resultados; el perfilador y los
@@ -32,8 +32,8 @@ cd ..
 ## Clonar el repositorio y sus submódulos
 
 ```bash
-git clone --recurse-submodules https://github.com/mihaibaja/TFG-Profiling.git
-cd TFG-Profiling
+git clone --recurse-submodules https://github.com/mihaibaja/Profiling.git
+cd Profiling
 ```
 
 Si ya lo clonaste sin submódulos:
