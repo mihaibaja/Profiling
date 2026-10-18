@@ -1,0 +1,11 @@
+Scalar FP16 to FP32 widening sum of 1024 elements;
+Instruction;fcvt.s.h + fadd.s
+Implementation;scalar widening
+Input bits;16
+Accumulator bits;32
+Elements;1024
+Iterations;10000
+Total Ops;10240000
+Seconds;0.759628934
+GElements/sec;0.013480266
+Result;-0.0146484375

@@ -1,0 +1,11 @@
+Unordered RVV FP16 to FP32 widening sum of 1024 elements;
+Instruction;vfwredusum.vs
+Implementation;vector unordered widening
+Input bits;16
+Accumulator bits;32
+Elements;1024
+Iterations;10000
+Total Ops;10240000
+Seconds;0.960316799
+GElements/sec;0.010663148
+Result;-0.0146484375

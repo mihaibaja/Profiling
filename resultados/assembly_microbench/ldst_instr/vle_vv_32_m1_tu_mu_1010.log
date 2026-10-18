@@ -1,0 +1,11 @@
+init value0=1527518654.000000	init value1=2115072593.000000	init value2=2146980523.000000	init value3=1450484298.000000	init value4=1577947757.000000	init value5=1625521489.000000	init value6=769132910.000000	init value7=154611037.000000	
+Check if the v0 register has been written to
+element0=1527518654.000000	element1=0.000000  	element2=2146980523.000000	element3=0.000000  	element4=1577947757.000000	element5=0.000000  	element6=769132910.000000	element7=0.000000  	
+4( 30(rv64gcv_VLE32.V_32b) );
+Iterations;100000
+Total Inst;12000000
+Total Ops;48000000
+Inst/Iter;120
+Ops/Iter;480
+Seconds;31.3061
+GOps/sec;0.00153325

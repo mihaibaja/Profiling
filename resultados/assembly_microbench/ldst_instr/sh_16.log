@@ -1,0 +1,9 @@
+init value0=-21596.000000	
+32( 7(rv64gc_SH_16b) );
+Iterations;200000
+Total Inst;44800000
+Total Ops;44800000
+Inst/Iter;224
+Ops/Iter;224
+Seconds;0.633431
+GOps/sec;0.0707259

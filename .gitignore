@@ -1,0 +1,33 @@
+# ============================================================================
+# .gitignore del repositorio principal
+# Los artefactos de compilacion de cada submodulo se ignoran en su propio
+# .gitignore. Aqui solo se cubren ficheros locales y temporales de la raiz.
+# ============================================================================
+
+# Configuracion local (se copia de config.example.sh)
+config.sh
+config.local.sh
+
+# Temporales y ficheros de editor / sistema
+*.tmp
+*.swp
+*~
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Posibles productos de compilacion en la raiz
+build/
+*.o
+*.a
+*.so
+*.d
+*.x
+*.exe
+*.out
+
+# NOTA: resultados/ se versiona a proposito, incluidos sus .json y .log.

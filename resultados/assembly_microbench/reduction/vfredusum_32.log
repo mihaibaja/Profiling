@@ -1,0 +1,11 @@
+Unordered RVV FP32 sum of 1024 elements;
+Instruction;vfredusum.vs
+Implementation;vector unordered
+Input bits;32
+Accumulator bits;32
+Elements;1024
+Iterations;10000
+Total Ops;10240000
+Seconds;1.389121565
+GElements/sec;0.007371565
+Result;-0.0146484375

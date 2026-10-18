@@ -1,0 +1,15 @@
+Peak two-field 64-bit segment-load throughput;
+Instruction;vlseg2e64.v
+Index style;field 0 even, field 1 odd
+Element bits;64
+VL;4
+Iterations;200000
+Total Inst;12800000
+Total Elements;102400000
+Inst/Iter;64
+Elements/Iter;512
+Useful Elements/Iter;256
+Seconds;4.980268352
+GInst/sec;0.002570143
+GElements/sec;0.020561141
+Useful GElements/sec;0.010280571

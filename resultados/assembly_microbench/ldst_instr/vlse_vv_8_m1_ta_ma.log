@@ -1,0 +1,11 @@
+init value0=60.000000	init value1=12.000000	init value2=-34.000000	init value3=-125.000000	init value4=-2.000000	init value5=-90.000000	init value6=23.000000	init value7=-53.000000	init value8=107.000000	init value9=3.000000	init value10=69.000000	init value11=-76.000000	init value12=4.000000	init value13=-7.000000	init value14=-80.000000	init value15=32.000000	init value16=64.000000	init value17=-113.000000	init value18=-64.000000	init value19=21.000000	init value20=-102.000000	init value21=36.000000	init value22=-19.000000	init value23=59.000000	init value24=-58.000000	init value25=97.000000	init value26=77.000000	init value27=126.000000	init value28=25.000000	init value29=24.000000	init value30=-7.000000	init value31=85.000000	init value32=36.000000	init value33=-41.000000	init value34=-39.000000	init value35=34.000000	init value36=125.000000	init value37=-16.000000	init value38=-18.000000	init value39=-23.000000	init value40=-13.000000	init value41=51.000000	init value42=-99.000000	init value43=-9.000000	init value44=44.000000	init value45=77.000000	init value46=23.000000	init value47=108.000000	init value48=-35.000000	init value49=-41.000000	init value50=-127.000000	init value51=119.000000	init value52=-4.000000	init value53=110.000000	init value54=-78.000000	init value55=-62.000000	init value56=-48.000000	init value57=0.000000	init value58=64.000000	init value59=-23.000000	init value60=24.000000	init value61=57.000000	init value62=62.000000	init value63=60.000000	
+Check if the v0 register has been written to
+element0=60.000000 	element1=-34.000000	element2=-2.000000 	element3=23.000000 	element4=107.000000	element5=69.000000 	element6=4.000000  	element7=-80.000000	element8=64.000000 	element9=-64.000000	element10=-102.000000	element11=-19.000000	element12=-58.000000	element13=77.000000 	element14=25.000000 	element15=-7.000000 	element16=36.000000 	element17=-39.000000	element18=125.000000	element19=-18.000000	element20=-13.000000	element21=-99.000000	element22=44.000000 	element23=23.000000 	element24=-35.000000	element25=-127.000000	element26=-4.000000 	element27=-78.000000	element28=-48.000000	element29=64.000000 	element30=24.000000 	element31=62.000000 	
+4( 32(rv64gcv_VLSE8.V_8b) );
+Iterations;200000
+Total Inst;25600000
+Total Ops;819200000
+Inst/Iter;128
+Ops/Iter;4096
+Seconds;23.5533
+GOps/sec;0.0347807

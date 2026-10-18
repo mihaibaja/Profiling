@@ -1,0 +1,11 @@
+Ordered RVV FP32 sum of 1024 elements;
+Instruction;vfredosum.vs
+Implementation;vector ordered
+Input bits;32
+Accumulator bits;32
+Elements;1024
+Iterations;10000
+Total Ops;10240000
+Seconds;1.452289069
+GElements/sec;0.007050938
+Result;-0.0146484375

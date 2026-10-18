@@ -1,0 +1,13 @@
+The active vector length of RVV is 8
+init value0=0.726537	init value1=1.836160	init value2=7.742459	init value3=6.097745	init value4=8.241989	init value5=6.908084	init value6=7.103403	init value7=5.794241	
+Check if the v0 register has been written to
+element0=0.726537  	element1=1.836160  	element2=7.742459  	element3=6.097745  	element4=8.241989  	element5=6.908084  	element6=7.103403  	element7=5.794241  	
+The active vector length of RVV is 8
+4( 32(rv64gcv_VFMACC.VV_32b) );
+Iterations;200000
+Total Inst;25600000
+Total Ops;204800000
+Inst/Iter;128
+Ops/Iter;1024
+Seconds;12.24
+GOps/sec;0.0167321

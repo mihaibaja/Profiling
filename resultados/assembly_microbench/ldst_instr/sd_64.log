@@ -1,0 +1,9 @@
+init value0=1565243332.000000	
+32( 7(rv64gc_SD_64b) );
+Iterations;200000
+Total Inst;44800000
+Total Ops;44800000
+Inst/Iter;224
+Ops/Iter;224
+Seconds;0.236151
+GOps/sec;0.189709

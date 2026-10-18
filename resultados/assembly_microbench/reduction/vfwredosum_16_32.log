@@ -1,0 +1,11 @@
+Ordered RVV FP16 to FP32 widening sum of 1024 elements;
+Instruction;vfwredosum.vs
+Implementation;vector ordered widening
+Input bits;16
+Accumulator bits;32
+Elements;1024
+Iterations;10000
+Total Ops;10240000
+Seconds;0.954026431
+GElements/sec;0.010733455
+Result;-0.0146484375

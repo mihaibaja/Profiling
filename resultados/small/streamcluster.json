@@ -1,0 +1,172 @@
+{
+  "generator": "RAVE",
+  "binary": "bin/streamcluster_vector.exe",
+  "vlen_bits": 16384,
+  "trace_extended": true,
+  "accumulate_regions": false,
+  "region_count": 1,
+  "regions": [
+    {
+      "id": 0,
+      "name": "GLOBAL_REGION",
+      "nesting": 0,
+      "rank": 0,
+      "thread": 0,
+      "executions": 1,
+      "parent": null,
+      "counters": {
+        "moved_bytes": {
+          "total": 8041837297,
+          "scalar": 398567633,
+          "vector": 7643269664
+        },
+        "flops": {
+          "total": 4816618070,
+          "scalar": 40803030,
+          "vector": 4775815040
+        },
+        "global_stats": {
+          "avg_vl_elems": 605.914088,
+          "avg_vl_bits": 7151.520830,
+          "avg_lmul": 1.001027,
+          "avg_occupancy": 0.436486,
+          "vlen_bits": 16384,
+          "avg_vlmax_elems": 894.433171,
+          "tu_effective": 0,
+          "ta_effective": 44908805,
+          "unique_vector_registers": 4
+        },
+        "dependencies": {
+          "scalar": {
+            "total": 59641103,
+            "raw": 22461452,
+            "waw": 14885949,
+            "war": 22293702
+          },
+          "vector": {
+            "total": 82213489,
+            "raw": {
+              "count": 44835800,
+              "avg_dist": 1.838819
+            },
+            "waw": {
+              "count": 22350483,
+              "avg_dist": 4.662893
+            },
+            "war": {
+              "count": 15027206,
+              "avg_dist": 11.674644
+            }
+          }
+        },
+        "masked": {
+        },
+        "memory_addresses": {
+        },
+        "instructions_previous_version": {
+          "total": 482519926,
+          "scalar": 392952699,
+          "vsetvl": 29770150,
+          "vector": 59797077,
+          "sew": [
+            {
+              "sew": 8,
+              "instr": 14888272,
+              "elems": 30491181056,
+              "avg_vl": 2048,
+              "elems_by_kind": {
+                "arith": 30491181056,
+                "memory": 0,
+                "reduction": 0,
+                "mask": 0
+              },
+              "avg_stride_b": 0,
+              "stddev_stride_b": 0
+            },
+            {
+              "sew": 16,
+              "instr": 0,
+              "elems": 0,
+              "avg_vl": 0,
+              "elems_by_kind": {
+                "arith": 0,
+                "memory": 0,
+                "reduction": 0,
+                "mask": 0
+              },
+              "avg_stride_b": 0,
+              "stddev_stride_b": 0
+            },
+            {
+              "sew": 32,
+              "instr": 44847380,
+              "elems": 5740464640,
+              "avg_vl": 128,
+              "elems_by_kind": {
+                "arith": 3830138624,
+                "memory": 1910326016,
+                "reduction": 0,
+                "mask": 0
+              },
+              "avg_stride_b": 0,
+              "stddev_stride_b": 0
+            },
+            {
+              "sew": 64,
+              "instr": 61425,
+              "elems": 245700,
+              "avg_vl": 4,
+              "elems_by_kind": {
+                "arith": 0,
+                "memory": 245700,
+                "reduction": 0,
+                "mask": 0
+              },
+              "avg_stride_b": 0,
+              "stddev_stride_b": 0
+            }
+          ]
+        }
+      },
+      "instructions": {
+        "configuration_setting": {
+          "vsetvli_counter": 14926236,
+          "vsetivli_counter": 14843914
+        },
+        "vector_loads_and_stores": {
+          "unit_stride": {
+            "vle32_v_counter": 14924422,
+            "vle64_v_counter": 24570,
+            "vse64_v_counter": 36855
+          }
+        },
+        "vector_integer_arithmetic": {
+          "integer_move": {
+            "vmv_v_i_counter": 74114
+          }
+        },
+        "vector_floating_point": {
+          "single_width_add_subtract": {
+            "vfsub_vv_counter": 7462211
+          },
+          "single_width_fused_multiply_add": {
+            "vfmacc_vv_counter": 7462211
+          }
+        },
+        "vector_reduction": {
+          "single_width_floating_point": {
+            "vfredosum_vs_counter": 7462211
+          }
+        },
+        "vector_permutation": {
+          "floating_point_scalar_move": {
+            "vfmv_f_s_counter": 7462211
+          },
+          "whole_register_move": {
+            "vmv1r_v_counter": 14888272
+          }
+        }
+      }
+    }
+  ]
+}

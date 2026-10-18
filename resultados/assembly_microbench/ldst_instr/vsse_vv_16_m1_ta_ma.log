@@ -1,0 +1,11 @@
+init value0=-18736.000000	init value1=-30892.000000	init value2=18552.000000	init value3=6820.000000	init value4=-29556.000000	init value5=-3943.000000	init value6=14094.000000	init value7=29650.000000	init value8=21920.000000	init value9=-21795.000000	init value10=-12775.000000	init value11=537.000000	init value12=25079.000000	init value13=-7704.000000	init value14=942.000000	init value15=-17283.000000	init value16=-2212.000000	init value17=-28671.000000	init value18=-23379.000000	init value19=23704.000000	init value20=8806.000000	init value21=9610.000000	init value22=-29438.000000	init value23=26056.000000	init value24=26312.000000	init value25=12368.000000	init value26=-21492.000000	init value27=20650.000000	init value28=-1144.000000	init value29=13047.000000	init value30=782.000000	init value31=-19880.000000	init value32=-17845.000000	init value33=19334.000000	init value34=-13060.000000	init value35=18136.000000	init value36=15391.000000	init value37=1034.000000	init value38=-17750.000000	init value39=-28225.000000	init value40=-20761.000000	init value41=-30525.000000	init value42=-27688.000000	init value43=4319.000000	init value44=27307.000000	init value45=-26746.000000	init value46=-12964.000000	init value47=25096.000000	init value48=10120.000000	init value49=29194.000000	init value50=-16736.000000	init value51=18926.000000	init value52=-26732.000000	init value53=19363.000000	init value54=-20554.000000	init value55=-419.000000	init value56=31731.000000	init value57=23490.000000	init value58=20231.000000	init value59=30587.000000	init value60=-28999.000000	init value61=21013.000000	init value62=10707.000000	init value63=18692.000000	
+Check if the v0 register has been written to
+element0=0.000000  	element1=0.000000  	element2=0.000000  	element3=0.000000  	element4=0.000000  	element5=0.000000  	element6=0.000000  	element7=0.000000  	element8=0.000000  	element9=0.000000  	element10=0.000000  	element11=0.000000  	element12=0.000000  	element13=0.000000  	element14=0.000000  	element15=0.000000  	
+4( 32(rv64gcv_VSSE16.V_16b) );
+Iterations;200000
+Total Inst;25600000
+Total Ops;409600000
+Inst/Iter;128
+Ops/Iter;2048
+Seconds;18.8501
+GOps/sec;0.0217293

@@ -1,0 +1,9 @@
+[submodule "rave-ext"]
+	path = rave-ext
+	url = https://github.com/mihaibaja/rave-ext.git
+[submodule "RiVEC"]
+	path = RiVEC
+	url = https://github.com/mihaibaja/RiVEC.git
+[submodule "rvv-evaluation"]
+	path = rvv-evaluation
+	url = https://github.com/mihaibaja/rvv-evaluation.git

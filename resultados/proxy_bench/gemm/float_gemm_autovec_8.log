@@ -1,0 +1,10 @@
+Parallel Research Kernels version 2.17
+OpenMP Dense matrix-matrix multiplication
+Matrix order          = 100
+Number of threads     = 1
+Blocking factor       = 1
+Block offset          = 12
+Number of iterations  = 2
+Using MKL library     = off
+Solution validates
+Rate (MFlops/s): 0.240775  Avg time (s): 8.306494

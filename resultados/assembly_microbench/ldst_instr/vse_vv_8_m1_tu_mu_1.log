@@ -1,0 +1,11 @@
+init value0=-81.000000	init value1=-19.000000	init value2=-40.000000	init value3=-15.000000	init value4=-3.000000	init value5=-55.000000	init value6=90.000000	init value7=-97.000000	init value8=-87.000000	init value9=57.000000	init value10=-8.000000	init value11=4.000000	init value12=118.000000	init value13=-119.000000	init value14=29.000000	init value15=-57.000000	init value16=-121.000000	init value17=-74.000000	init value18=33.000000	init value19=-15.000000	init value20=123.000000	init value21=14.000000	init value22=63.000000	init value23=-109.000000	init value24=39.000000	init value25=-62.000000	init value26=-10.000000	init value27=4.000000	init value28=86.000000	init value29=74.000000	init value30=24.000000	init value31=5.000000	
+Check if the v0 register has been written to
+element0=0.000000  	element1=0.000000  	element2=0.000000  	element3=0.000000  	element4=0.000000  	element5=0.000000  	element6=0.000000  	element7=0.000000  	element8=0.000000  	element9=0.000000  	element10=0.000000  	element11=0.000000  	element12=0.000000  	element13=0.000000  	element14=0.000000  	element15=0.000000  	element16=0.000000  	element17=0.000000  	element18=0.000000  	element19=0.000000  	element20=0.000000  	element21=0.000000  	element22=0.000000  	element23=0.000000  	element24=0.000000  	element25=0.000000  	element26=0.000000  	element27=0.000000  	element28=0.000000  	element29=0.000000  	element30=0.000000  	element31=0.000000  	
+4( 30(rv64gcv_VSE8.V_8b) );
+Iterations;200000
+Total Inst;24000000
+Total Ops;24000000
+Inst/Iter;120
+Ops/Iter;120
+Seconds;13.5834
+GOps/sec;0.00176686

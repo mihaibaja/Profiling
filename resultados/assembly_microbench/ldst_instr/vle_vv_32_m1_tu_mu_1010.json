@@ -1,0 +1,162 @@
+{
+  "generator": "RAVE",
+  "binary": "rvv-evaluation/assembly_microbench/ldst_instr/build/clang21/vle_vv_32_m1_tu_mu_1010.x",
+  "vlen_bits": 256,
+  "trace_extended": true,
+  "accumulate_regions": false,
+  "region_count": 1,
+  "regions": [
+    {
+      "id": 0,
+      "name": "GLOBAL_REGION",
+      "nesting": 0,
+      "rank": 0,
+      "thread": 0,
+      "executions": 1,
+      "parent": null,
+      "counters": {
+        "moved_bytes": {
+          "total": 388462299,
+          "scalar": 4462267,
+          "vector": 384000032
+        },
+        "flops": {
+          "total": 153,
+          "scalar": 153,
+          "vector": 0
+        },
+        "global_stats": {
+          "avg_vl_elems": 8.000012,
+          "avg_vl_bits": 256,
+          "avg_lmul": 1,
+          "avg_occupancy": 1,
+          "vlen_bits": 256,
+          "avg_vlmax_elems": 8.000012,
+          "tu_effective": 0,
+          "ta_effective": 0,
+          "unique_vector_registers": 31
+        },
+        "dependencies": {
+          "scalar": {
+            "total": 600011,
+            "raw": 600005,
+            "waw": 3,
+            "war": 3
+          },
+          "vector": {
+            "total": 300006,
+            "raw": {
+              "count": 4,
+              "avg_dist": 1
+            },
+            "waw": {
+              "count": 300002,
+              "avg_dist": 1
+            },
+            "war": {
+              "count": 0,
+              "avg_dist": 0
+            }
+          }
+        },
+        "masked": {
+          "memory": {
+            "instr": 12000000,
+            "avg_density": 0.500000,
+            "stddev_density": 0
+          }
+        },
+        "memory_addresses": {
+        },
+        "instructions_previous_version": {
+          "total": 13406599,
+          "scalar": 1406588,
+          "vsetvl": 4,
+          "vector": 12000007,
+          "sew": [
+            {
+              "sew": 8,
+              "instr": 6,
+              "elems": 192,
+              "avg_vl": 32,
+              "elems_by_kind": {
+                "arith": 192,
+                "memory": 0,
+                "reduction": 0,
+                "mask": 0
+              },
+              "avg_stride_b": 0,
+              "stddev_stride_b": 0
+            },
+            {
+              "sew": 16,
+              "instr": 0,
+              "elems": 0,
+              "avg_vl": 0,
+              "elems_by_kind": {
+                "arith": 0,
+                "memory": 0,
+                "reduction": 0,
+                "mask": 0
+              },
+              "avg_stride_b": 0,
+              "stddev_stride_b": 0
+            },
+            {
+              "sew": 32,
+              "instr": 12000001,
+              "elems": 96000008,
+              "avg_vl": 8,
+              "elems_by_kind": {
+                "arith": 0,
+                "memory": 96000008,
+                "reduction": 0,
+                "mask": 0
+              },
+              "avg_stride_b": 0,
+              "stddev_stride_b": 0
+            },
+            {
+              "sew": 64,
+              "instr": 0,
+              "elems": 0,
+              "avg_vl": 0,
+              "elems_by_kind": {
+                "arith": 0,
+                "memory": 0,
+                "reduction": 0,
+                "mask": 0
+              },
+              "avg_stride_b": 0,
+              "stddev_stride_b": 0
+            }
+          ]
+        }
+      },
+      "instructions": {
+        "configuration_setting": {
+          "vsetvli_counter": 4
+        },
+        "vector_loads_and_stores": {
+          "unit_stride": {
+            "vle32_v_counter": 12000000,
+            "vse32_v_counter": 1
+          }
+        },
+        "vector_integer_arithmetic": {
+          "bitwise_logical": {
+            "vand_vi_counter": 2
+          },
+          "integer_compare": {
+            "vmseq_vi_counter": 2
+          }
+        },
+        "vector_mask": {
+          "element_index": {
+            "vid_v_counter": 2
+          }
+        }
+      }
+    }
+  ]
+}

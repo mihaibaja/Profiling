@@ -1,0 +1,15 @@
+Peak 32-bit vluxei32.v stride-2 throughput;
+Instruction;vluxei32.v
+Index style;stride2 (even elements)
+Element bits;32
+VL;8
+Iterations;100000
+Total Inst;12400000
+Total Elements;99200000
+Inst/Iter;124
+Elements/Iter;992
+Useful Elements/Iter;992
+Seconds;16.024700990
+GInst/sec;0.000773805
+GElements/sec;0.006190443
+Useful GElements/sec;0.006190443

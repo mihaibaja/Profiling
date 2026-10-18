@@ -1,0 +1,12 @@
+init time is 0.000246221 seconds.
+1 1-qubit, 19 2-qubit gates are fused into 10 gates
+fuse time is 0.0258742 seconds.
+simu time is 20.435 seconds.
+000:      0.70710677               0      0.49999997
+001:               0               0               0
+010:               0               0               0
+011:               0               0               0
+100:               0               0               0
+101:               0               0               0
+110:               0               0               0
+111:               0               0               0

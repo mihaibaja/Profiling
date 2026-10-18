@@ -1,0 +1,11 @@
+Scalar FP64 sum of 1024 elements;
+Instruction;fadd.d
+Implementation;scalar
+Input bits;64
+Accumulator bits;64
+Elements;1024
+Iterations;10000
+Total Ops;10240000
+Seconds;0.374841586
+GElements/sec;0.027318207
+Result;-0.0146484375
