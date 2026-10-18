@@ -1,4 +1,4 @@
-# Profiling RAVE - TFG
+# Profiling RAVE
 
 Scripts y resultados del perfilado de benchmarks **RVV** con **RAVE**. El repositorio
 principal contiene los scripts, la documentación y los resultados; el perfilador y los
@@ -15,7 +15,7 @@ benchmarks están como submódulos, cada uno con su propio README.
 | `run_*.sh` | Scripts de compilación y perfilado. |
 | `config.example.sh` | Plantilla de configuración local. |
 | `lib/common.sh` | Resolución de rutas y utilidades comunes. |
-| `docs/` | Notas del TFG. |
+| `docs/` | Documentos y notas. |
 
 ## Requisitos
 
