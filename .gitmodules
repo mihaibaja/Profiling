@@ -5,7 +5,7 @@
 	ignore = untracked
 [submodule "RiVEC"]
 	path = RiVEC
-	url = https://github.com/mihaibaja/RiVEC.git
+	url = https://github.com/mihaibaja/riscv-vectorized-benchmark-suite.git
 	branch = master
 	ignore = untracked
 [submodule "rvv-evaluation"]
