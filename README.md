@@ -364,7 +364,7 @@ La especificación completa de campos está en
 - Las rutas absolutas que RAVE escribía en el campo `binary` se han normalizado a rutas
   relativas a la raíz del repositorio.
 - Los `.log` conservan la salida de cada ejecución. También se han normalizado los prefijos
-  de ruta de esta máquina (`/home/mihai/Documents/TFG/`) para que sean relativos.
+  absolutos de ruta de la máquina original para que sean relativos.
 - Los scripts **sobrescriben** los JSON/logs con el mismo nombre al volver a ejecutarlos.
   Si quieres conservar una ejecución anterior, copia la carpeta o usa `OUT=...`.
 - Para regenerar todo desde cero, puedes mover o borrar `resultados/` (está versionado; usa
