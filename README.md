@@ -418,6 +418,14 @@ HTTPS para que `git clone --recurse-submodules` funcione sin llaves SSH:
 git -C rvv-evaluation submodule update --init apps_bench/qsim_rvv
 ```
 
+### Ramas y ficheros sin seguimiento
+
+`.gitmodules` fija la rama de cada submódulo (`main` o `master`) y usa
+`ignore = untracked` para que los ficheros generados dentro de un submódulo (por ejemplo los
+`.x` y circuitos de `qsim_rvv`) no marquen el repositorio principal como modificado. Los
+cambios en ficheros **sí versionados** del submódulo siguen apareciendo normalmente en
+`git status`.
+
 ---
 
 ## Política de `.gitignore`
