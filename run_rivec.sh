@@ -160,6 +160,7 @@ run_one(){
 			"$RAVE_CMD" --json "$json" "bin/$bin" $aargs >/dev/null 2>&1 )
 	fi
 	rc=$?
+	normalize_json_binary "$json" "$d/bin/$bin"
 	t1=$(date +%s)
 	sz=$(stat -c %s "$json" 2>/dev/null || echo 0)
 	printf '   %-18s exit=%-3s %3ss  %s\n' "$app" "$rc" "$((t1-t0))" "$(basename "$json")"

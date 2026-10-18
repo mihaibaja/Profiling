@@ -1,6 +1,6 @@
 {
   "generator": "RAVE",
-  "binary": "bin/pathfinder_vector.exe",
+  "binary": "RiVEC/_pathfinder/bin/pathfinder_vector.exe",
   "vlen_bits": 16384,
   "trace_extended": true,
   "accumulate_regions": false,

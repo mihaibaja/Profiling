@@ -117,6 +117,7 @@ for app in "${FOUND[@]}"; do
 	( cd "$SRC" && timeout "$TIMEOUT" "$RAVE_CMD" --json "$json" "apps/$app.x" \
 		-c "$CIRCUIT" $QSIM_ARGS >"$log" 2>&1 )
 	rc=$?
+	normalize_json_binary "$json" "$SRC/apps/$app.x"
 	t1=$(date +%s)
 	total=$((total+1))
 	printf '   %-18s exit=%-3s %4ss\n' "$app" "$rc" "$((t1-t0))"

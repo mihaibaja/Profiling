@@ -362,7 +362,9 @@ La especificación completa de campos está en
 ### Notas sobre los resultados versionados
 
 - Las rutas absolutas que RAVE escribía en el campo `binary` se han normalizado a rutas
-  relativas a la raíz del repositorio.
+  relativas a la raíz del repositorio. Los scripts repiten esta normalización después de
+  cada ejecución con la función `normalize_json_binary` de `lib/common.sh`, de modo que un
+  rerun no vuelve a introducir rutas de la máquina.
 - Los `.log` conservan la salida de cada ejecución. También se han normalizado los prefijos
   absolutos de ruta de la máquina original para que sean relativos.
 - Los scripts **sobrescriben** los JSON/logs con el mismo nombre al volver a ejecutarlos.

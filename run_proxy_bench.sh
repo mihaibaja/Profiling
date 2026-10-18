@@ -161,7 +161,7 @@ for bench in "${FOUND[@]}"; do
 					t0=$(date +%s)
 					( cd "$d" && env $OMP_ENV timeout "$TIMEOUT" \
 						"$RAVE_CMD" --json "$json" "$exe" $GEMM_ARGS >"$log" 2>&1 )
-					rc=$?; t1=$(date +%s); total=$((total+1))
+					rc=$?; normalize_json_binary "$json" "$exe"; t1=$(date +%s); total=$((total+1))
 					printf '   %-26s exit=%-3s %4ss\n' "gemm/$prec/$v" "$rc" "$((t1-t0))"
 				done
 			done
@@ -175,7 +175,7 @@ for bench in "${FOUND[@]}"; do
 				t0=$(date +%s)
 				( cd "$d" && env $OMP_ENV timeout "$TIMEOUT" \
 					"$RAVE_CMD" --json "$json" "$exe" $SPMV_ARGS >"$log" 2>&1 )
-				rc=$?; t1=$(date +%s); total=$((total+1))
+				rc=$?; normalize_json_binary "$json" "$exe"; t1=$(date +%s); total=$((total+1))
 				printf '   %-26s exit=%-3s %4ss\n' "spmv-v2/$v" "$rc" "$((t1-t0))"
 			done
 			;;
@@ -196,7 +196,7 @@ for bench in "${FOUND[@]}"; do
 				t0=$(date +%s)
 				( cd "$d" && env $OMP_ENV timeout "$TIMEOUT" \
 					"$RAVE_CMD" --json "$json" "$exe" $DARKNET_ARGS >"$log" 2>&1 )
-				rc=$?; t1=$(date +%s); total=$((total+1))
+				rc=$?; normalize_json_binary "$json" "$exe"; t1=$(date +%s); total=$((total+1))
 				printf '   %-26s exit=%-3s %4ss\n' "darknet/$name" "$rc" "$((t1-t0))"
 			done
 			;;

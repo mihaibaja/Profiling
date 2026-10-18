@@ -1,6 +1,6 @@
 {
   "generator": "RAVE",
-  "binary": "bin/lavaMD_vector.exe",
+  "binary": "RiVEC/_lavaMD/bin/lavaMD_vector.exe",
   "vlen_bits": 16384,
   "trace_extended": true,
   "accumulate_regions": true,

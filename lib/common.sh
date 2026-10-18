@@ -72,6 +72,18 @@ require_rave() {
        RAVE_BIN en config.sh."
 }
 
+# Reescribe el campo "binary" del JSON de RAVE para que sea siempre relativo a
+# la raiz del repositorio. RAVE guarda la ruta tal cual se le pasa, por lo que
+# sin esto un rerun volveria a introducir rutas absolutas.
+#
+# Uso: normalize_json_binary <json> <ruta_del_binario>
+normalize_json_binary() {
+	local json=$1 binary=$2 rel
+	[ -f "$json" ] || return 0
+	rel=$(realpath --relative-to="$PROFILING_ROOT" "$binary" 2>/dev/null) || rel=$binary
+	sed -i "s|\"binary\": \"[^\"]*\"|\"binary\": \"$rel\"|" "$json"
+}
+
 # Muestra una cabecera comun.
 print_banner() {
 	printf '== %s ==\n' "$*"

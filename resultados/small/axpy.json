@@ -1,6 +1,6 @@
 {
   "generator": "RAVE",
-  "binary": "bin/axpy_vector.exe",
+  "binary": "RiVEC/_axpy/bin/axpy_vector.exe",
   "vlen_bits": 16384,
   "trace_extended": true,
   "accumulate_regions": false,

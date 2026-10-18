@@ -155,6 +155,7 @@ for sub in "${FOUND[@]}"; do
 				RAVE_CUSTOM_EXTENSIONS=$EXTENSIONS \
 				timeout "$TIMEOUT" "$RAVE_CMD" --json "$json" "$exe" "$iters" >"$log" 2>&1 )
 			rc=$?
+			normalize_json_binary "$json" "$exe"
 			t1=$(date +%s)
 			total=$((total+1))
 			printf '   %-34s %-6s iters=%-9s exit=%-3s %3ss\n' \
