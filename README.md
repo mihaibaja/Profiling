@@ -80,7 +80,7 @@ Profiling/
 
 - **Linux x86_64** (el entorno usado para desarrollar ha sido Debian 13).
 - `git` (>= 2.40 recomendado) con soporte de submódulos.
-- `bash`, `make`, `python3`, `clang`/`clang++` de host.
+- `bash`, `make`, `python3` y un compilador de host (gcc o clang).
 - **RAVE compilado** y el ejecutable `rave` disponible:
   - o bien en `PATH` (`source rave-ext/environment.sh 1_0`),
   - o bien definiendo `RAVE_BIN` en `config.sh`.
