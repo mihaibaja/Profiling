@@ -11,6 +11,7 @@ benchmarks están como submódulos, cada uno con su propio README.
 | `rave-ext/` | Submódulo: perfilador RAVE extendido. |
 | `RiVEC/` | Submódulo: suite de benchmarks RiVEC. |
 | `rvv-evaluation/` | Submódulo: apps, proxy benchmarks y microbenchmarks. |
+| `profiler/` | Submódulo: interfaz gráfica del perfilador (SDL3). |
 | `resultados/` | Resultados de las ejecuciones (JSON + logs). Forma parte de este repo. |
 | `run_*.sh` | Scripts de compilación y perfilado. |
 | `config.example.sh` | Plantilla de configuración local. |

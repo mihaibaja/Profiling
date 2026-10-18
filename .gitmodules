@@ -13,3 +13,8 @@
 	url = https://github.com/mihaibaja/rvv-evaluation.git
 	branch = main
 	ignore = untracked
+[submodule "profiler"]
+	path = profiler
+	url = https://github.com/mihaibaja/profiler.git
+	branch = main
+	ignore = untracked
