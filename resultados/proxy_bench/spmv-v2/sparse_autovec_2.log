@@ -5,5 +5,5 @@ Stencil diameter      =                7
 Sparsity              =     0.0031738281
 Number of iterations  =                2
 Using scrambled indexing
-Init time(s): 0.069117  Rate (MFlops/s): 0.323646  Avg time (s): 0.329051
+Init time(s): 0.045652  Rate (MFlops/s): 0.424613  Avg time (s): 0.250807
 Solution validates

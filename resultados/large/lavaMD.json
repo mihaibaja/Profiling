@@ -1,0 +1,523 @@
+{
+  "generator": "RAVE",
+  "binary": "RiVEC/_lavaMD/bin/lavaMD_vector.exe",
+  "vlen_bits": 16384,
+  "trace_extended": true,
+  "accumulate_regions": true,
+  "RAW_DIST": true,
+  "WAW_DIST": true,
+  "WAR_DIST": true,
+  "region_count": 1,
+  "regions": [
+    {
+      "id": 0,
+      "name": "GLOBAL_REGION",
+      "nesting": 0,
+      "rank": 0,
+      "thread": 0,
+      "executions": 1,
+      "parent": null,
+      "counters": {
+        "moved_bytes": {
+          "total": 6572756667,
+          "scalar": 2492845755,
+          "vector": 4079910912
+        },
+        "flops": {
+          "total": 12749538922,
+          "scalar": 4032106,
+          "vector": 12745506816
+        },
+        "global_stats": {
+          "avg_vl_elems": 195.039999,
+          "avg_vl_bits": 3619.839997,
+          "avg_lmul": 1,
+          "avg_occupancy": 0.220937,
+          "vlen_bits": 16384,
+          "avg_vlmax_elems": 593.919999,
+          "tu_effective": 0,
+          "ta_effective": 149624833,
+          "unique_vector_registers": 15
+        },
+        "dependencies": {
+          "scalar": {
+            "total": 29481538,
+            "raw": 21073921,
+            "waw": 2107392,
+            "war": 6300225
+          },
+          "vector": {
+            "total": 345568384,
+            "raw": {
+              "count": 158054400,
+              "avg_dist": 3.360000
+            },
+            "waw": {
+              "count": 88510464,
+              "avg_dist": 3.357143
+            },
+            "war": {
+              "count": 99003520,
+              "avg_dist": 3.973392
+            }
+          }
+        },
+        "masked": {
+          "masked_active_elements": 97574342,
+          "avg_density": 0.482302,
+          "arith": {
+            "instr": 2107392,
+            "avg_density": 0.482302,
+            "stddev_density": 0.082972
+          }
+        },
+        "memory_addresses": {
+        },
+        "instructions_previous_version": {
+          "total": 1451907005,
+          "scalar": 1285423035,
+          "vsetvl": 8429569,
+          "vector": 158054401,
+          "sew": [
+            {
+              "sew": 8,
+              "instr": 8429568,
+              "elems": 17263755264,
+              "avg_vl": 2048,
+              "elems_by_kind": {
+                "arith": 17263755264,
+                "memory": {
+                  "unit_stride": 0,
+                  "strided": 0,
+                  "indexed": 0
+                },
+                "reduction": 0,
+                "mask": 0
+              },
+              "avg_stride_b": 0,
+              "stddev_stride_b": 0,
+              "scalar_vector_interface": {
+                "events_count": {
+                  "broadcast_vx": 0,
+                  "broadcast_vf": 0,
+                  "scalar_to_vector": 0,
+                  "vector_to_scalar": 0,
+                  "scalar_result": 0,
+                  "vsetvl_config": 0
+                },
+                "elements_affected": {
+                  "broadcast_vx_consumed_elements": 0,
+                  "broadcast_vf_consumed_elements": 0,
+                  "total_active_elements_processed": 17263755264
+                }
+              },
+              "movement_profile": {
+                "arithmetic_useful_ops": {
+                  "int_ops": 8429568,
+                  "fp_ops": 0
+                },
+                "categories": {
+                  "slides": {
+                    "instr": 0,
+                    "vrf_bytes_read": 0,
+                    "vrf_bytes_written": 0
+                  },
+                  "gathers": {
+                    "instr": 0,
+                    "vrf_bytes_read": 0,
+                    "vrf_bytes_written": 0
+                  },
+                  "compress": {
+                    "instr": 0,
+                    "vrf_bytes_read": 0,
+                    "vrf_bytes_written": 0
+                  },
+                  "reductions": {
+                    "instr": 0,
+                    "vrf_bytes_read": 0,
+                    "vrf_bytes_written": 0
+                  },
+                  "whole_register": {
+                    "instr": 8429568,
+                    "vrf_bytes_read": 17263755264,
+                    "vrf_bytes_written": 17263755264
+                  },
+                  "mask_ops_scans": {
+                    "instr": 0,
+                    "vrf_bytes_read": 0,
+                    "vrf_bytes_written": 0
+                  },
+                  "layout_conversions": {
+                    "instr": 0,
+                    "vrf_bytes_read": 0,
+                    "vrf_bytes_written": 0
+                  }
+                }
+              },
+              "policies": {
+                "policy_selection": {
+                  "tu_instructions": 0,
+                  "ta_instructions": 8429568,
+                  "mu_masked_instructions": 0,
+                  "ma_masked_instructions": 0
+                },
+                "preservation_pressure": {
+                  "tail_preserved_elements": 0,
+                  "mask_preserved_elements": 0,
+                  "active_written_elements": 17263755264,
+                  "total_destination_elements": 17263755264
+                }
+              }
+            },
+            {
+              "sew": 16,
+              "instr": 0,
+              "elems": 0,
+              "avg_vl": 0,
+              "elems_by_kind": {
+                "arith": 0,
+                "memory": {
+                  "unit_stride": 0,
+                  "strided": 0,
+                  "indexed": 0
+                },
+                "reduction": 0,
+                "mask": 0
+              },
+              "avg_stride_b": 0,
+              "stddev_stride_b": 0,
+              "scalar_vector_interface": {
+                "events_count": {
+                  "broadcast_vx": 0,
+                  "broadcast_vf": 0,
+                  "scalar_to_vector": 0,
+                  "vector_to_scalar": 0,
+                  "scalar_result": 0,
+                  "vsetvl_config": 0
+                },
+                "elements_affected": {
+                  "broadcast_vx_consumed_elements": 0,
+                  "broadcast_vf_consumed_elements": 0,
+                  "total_active_elements_processed": 0
+                }
+              },
+              "movement_profile": {
+                "arithmetic_useful_ops": {
+                  "int_ops": 0,
+                  "fp_ops": 0
+                },
+                "categories": {
+                  "slides": {
+                    "instr": 0,
+                    "vrf_bytes_read": 0,
+                    "vrf_bytes_written": 0
+                  },
+                  "gathers": {
+                    "instr": 0,
+                    "vrf_bytes_read": 0,
+                    "vrf_bytes_written": 0
+                  },
+                  "compress": {
+                    "instr": 0,
+                    "vrf_bytes_read": 0,
+                    "vrf_bytes_written": 0
+                  },
+                  "reductions": {
+                    "instr": 0,
+                    "vrf_bytes_read": 0,
+                    "vrf_bytes_written": 0
+                  },
+                  "whole_register": {
+                    "instr": 0,
+                    "vrf_bytes_read": 0,
+                    "vrf_bytes_written": 0
+                  },
+                  "mask_ops_scans": {
+                    "instr": 0,
+                    "vrf_bytes_read": 0,
+                    "vrf_bytes_written": 0
+                  },
+                  "layout_conversions": {
+                    "instr": 0,
+                    "vrf_bytes_read": 0,
+                    "vrf_bytes_written": 0
+                  }
+                }
+              },
+              "policies": {
+                "policy_selection": {
+                  "tu_instructions": 0,
+                  "ta_instructions": 0,
+                  "mu_masked_instructions": 0,
+                  "ma_masked_instructions": 0
+                },
+                "preservation_pressure": {
+                  "tail_preserved_elements": 0,
+                  "mask_preserved_elements": 0,
+                  "active_written_elements": 0,
+                  "total_destination_elements": 0
+                }
+              }
+            },
+            {
+              "sew": 32,
+              "instr": 149624833,
+              "elems": 13563175008,
+              "avg_vl": 90.647887,
+              "elems_by_kind": {
+                "arith": 12543197280,
+                "memory": {
+                  "unit_stride": 210739200,
+                  "strided": 809238528,
+                  "indexed": 0
+                },
+                "reduction": 0,
+                "mask": 0
+              },
+              "avg_stride_b": 16,
+              "stddev_stride_b": 0,
+              "scalar_vector_interface": {
+                "events_count": {
+                  "broadcast_vx": 2107392,
+                  "broadcast_vf": 25288704,
+                  "scalar_to_vector": 29503488,
+                  "vector_to_scalar": 0,
+                  "scalar_result": 0,
+                  "vsetvl_config": 0
+                },
+                "elements_affected": {
+                  "broadcast_vx_consumed_elements": 202309632,
+                  "broadcast_vf_consumed_elements": 2427715584,
+                  "total_active_elements_processed": 13563175008
+                }
+              },
+              "movement_profile": {
+                "arithmetic_useful_ops": {
+                  "int_ops": 25288705,
+                  "fp_ops": 105369600
+                },
+                "categories": {
+                  "slides": {
+                    "instr": 0,
+                    "vrf_bytes_read": 0,
+                    "vrf_bytes_written": 0
+                  },
+                  "gathers": {
+                    "instr": 0,
+                    "vrf_bytes_read": 0,
+                    "vrf_bytes_written": 0
+                  },
+                  "compress": {
+                    "instr": 0,
+                    "vrf_bytes_read": 0,
+                    "vrf_bytes_written": 0
+                  },
+                  "reductions": {
+                    "instr": 8429568,
+                    "vrf_bytes_read": 6473908224,
+                    "vrf_bytes_written": 3236954112
+                  },
+                  "whole_register": {
+                    "instr": 0,
+                    "vrf_bytes_read": 0,
+                    "vrf_bytes_written": 0
+                  },
+                  "mask_ops_scans": {
+                    "instr": 0,
+                    "vrf_bytes_read": 0,
+                    "vrf_bytes_written": 0
+                  },
+                  "layout_conversions": {
+                    "instr": 6322176,
+                    "vrf_bytes_read": 2427715584,
+                    "vrf_bytes_written": 2427715584
+                  }
+                }
+              },
+              "policies": {
+                "policy_selection": {
+                  "tu_instructions": 0,
+                  "ta_instructions": 149624833,
+                  "mu_masked_instructions": 0,
+                  "ma_masked_instructions": 2107392
+                },
+                "preservation_pressure": {
+                  "tail_preserved_elements": 0,
+                  "mask_preserved_elements": 0,
+                  "active_written_elements": 13458439718,
+                  "total_destination_elements": 76607914496
+                }
+              }
+            },
+            {
+              "sew": 64,
+              "instr": 0,
+              "elems": 0,
+              "avg_vl": 0,
+              "elems_by_kind": {
+                "arith": 0,
+                "memory": {
+                  "unit_stride": 0,
+                  "strided": 0,
+                  "indexed": 0
+                },
+                "reduction": 0,
+                "mask": 0
+              },
+              "avg_stride_b": 0,
+              "stddev_stride_b": 0,
+              "scalar_vector_interface": {
+                "events_count": {
+                  "broadcast_vx": 0,
+                  "broadcast_vf": 0,
+                  "scalar_to_vector": 0,
+                  "vector_to_scalar": 0,
+                  "scalar_result": 0,
+                  "vsetvl_config": 8429569
+                },
+                "elements_affected": {
+                  "broadcast_vx_consumed_elements": 0,
+                  "broadcast_vf_consumed_elements": 0,
+                  "total_active_elements_processed": 0
+                }
+              },
+              "movement_profile": {
+                "arithmetic_useful_ops": {
+                  "int_ops": 0,
+                  "fp_ops": 0
+                },
+                "categories": {
+                  "slides": {
+                    "instr": 0,
+                    "vrf_bytes_read": 0,
+                    "vrf_bytes_written": 0
+                  },
+                  "gathers": {
+                    "instr": 0,
+                    "vrf_bytes_read": 0,
+                    "vrf_bytes_written": 0
+                  },
+                  "compress": {
+                    "instr": 0,
+                    "vrf_bytes_read": 0,
+                    "vrf_bytes_written": 0
+                  },
+                  "reductions": {
+                    "instr": 0,
+                    "vrf_bytes_read": 0,
+                    "vrf_bytes_written": 0
+                  },
+                  "whole_register": {
+                    "instr": 0,
+                    "vrf_bytes_read": 0,
+                    "vrf_bytes_written": 0
+                  },
+                  "mask_ops_scans": {
+                    "instr": 0,
+                    "vrf_bytes_read": 0,
+                    "vrf_bytes_written": 0
+                  },
+                  "layout_conversions": {
+                    "instr": 0,
+                    "vrf_bytes_read": 0,
+                    "vrf_bytes_written": 0
+                  }
+                }
+              },
+              "policies": {
+                "policy_selection": {
+                  "tu_instructions": 0,
+                  "ta_instructions": 0,
+                  "mu_masked_instructions": 0,
+                  "ma_masked_instructions": 0
+                },
+                "preservation_pressure": {
+                  "tail_preserved_elements": 0,
+                  "mask_preserved_elements": 0,
+                  "active_written_elements": 0,
+                  "total_destination_elements": 0
+                }
+              }
+            }
+          ]
+        }
+      },
+      "instructions": {
+        "configuration_setting": {
+          "vsetvli_counter": 4214785,
+          "vsetivli_counter": 4214784
+        },
+        "vector_loads_and_stores": {
+          "unit_stride": {
+            "vle32_v_counter": 2107392,
+            "vse32_v_counter": 8429568
+          },
+          "strided": {
+            "vlse32_v_counter": 8429568
+          }
+        },
+        "vector_integer_arithmetic": {
+          "single_width_add_subtract": {
+            "vadd_vx_counter": 2107392
+          },
+          "single_width_shift": {
+            "vsll_vi_counter": 2107392
+          },
+          "integer_move": {
+            "vmv_v_v_counter": 2107392,
+            "vmv_v_x_counter": 14751744,
+            "vmv_v_i_counter": 2107393
+          }
+        },
+        "vector_floating_point": {
+          "single_width_add_subtract": {
+            "vfadd_vf_counter": 4214784,
+            "vfsub_vv_counter": 14751744
+          },
+          "single_width_multiply_divide": {
+            "vfmul_vv_counter": 12644352,
+            "vfmul_vf_counter": 8429568
+          },
+          "single_width_fused_multiply_add": {
+            "vfmacc_vv_counter": 16859136,
+            "vfmacc_vf_counter": 6322176,
+            "vfmadd_vv_counter": 4214784
+          },
+          "min_max": {
+            "vfmin_vf_counter": 2107392,
+            "vfmax_vf_counter": 2107392
+          },
+          "sign_injection": {
+            "vfsgnjn_vv_counter": 2107392
+          },
+          "compare": {
+            "vmflt_vv_counter": 2107392
+          },
+          "merge": {
+            "vfmerge_vfm_counter": 2107392
+          },
+          "move": {
+            "vfmv_v_f_counter": 6322176
+          },
+          "single_width_type_convert": {
+            "vfcvt_x_f_v_counter": 4214784,
+            "vfcvt_f_x_v_counter": 2107392
+          }
+        },
+        "vector_reduction": {
+          "single_width_floating_point": {
+            "vfredosum_vs_counter": 8429568
+          }
+        },
+        "vector_permutation": {
+          "floating_point_scalar_move": {
+            "vfmv_s_f_counter": 8429568
+          },
+          "whole_register_move": {
+            "vmv1r_v_counter": 8429568
+          }
+        }
+      }
+    }
+  ]
+}

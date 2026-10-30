@@ -1,7 +1,7 @@
 The active vector length of RVV is 32
-init value0=-128.000000	init value1=-108.000000	init value2=-72.000000	init value3=-52.000000	init value4=64.000000	init value5=-109.000000	init value6=19.000000	init value7=97.000000	init value8=70.000000	init value9=-52.000000	init value10=65.000000	init value11=-112.000000	init value12=-34.000000	init value13=-34.000000	init value14=-29.000000	init value15=-16.000000	init value16=46.000000	init value17=125.000000	init value18=37.000000	init value19=62.000000	init value20=-5.000000	init value21=-40.000000	init value22=-91.000000	init value23=84.000000	init value24=-41.000000	init value25=25.000000	init value26=-22.000000	init value27=-60.000000	init value28=49.000000	init value29=95.000000	init value30=-94.000000	init value31=-79.000000	
+init value0=92.000000	init value1=84.000000	init value2=-120.000000	init value3=-31.000000	init value4=-2.000000	init value5=50.000000	init value6=-112.000000	init value7=-38.000000	init value8=-21.000000	init value9=-123.000000	init value10=94.000000	init value11=57.000000	init value12=112.000000	init value13=-21.000000	init value14=110.000000	init value15=-60.000000	init value16=80.000000	init value17=24.000000	init value18=-118.000000	init value19=-102.000000	init value20=91.000000	init value21=125.000000	init value22=10.000000	init value23=-7.000000	init value24=7.000000	init value25=2.000000	init value26=-127.000000	init value27=52.000000	init value28=111.000000	init value29=-76.000000	init value30=-78.000000	init value31=-53.000000	
 Check if the v0 register has been written to
-element0=-128.000000	element1=-108.000000	element2=-72.000000	element3=-52.000000	element4=64.000000 	element5=-109.000000	element6=19.000000 	element7=97.000000 	element8=70.000000 	element9=-52.000000	element10=65.000000 	element11=-112.000000	element12=-34.000000	element13=-34.000000	element14=-29.000000	element15=-16.000000	element16=46.000000 	element17=125.000000	element18=37.000000 	element19=62.000000 	element20=-5.000000 	element21=-40.000000	element22=-91.000000	element23=84.000000 	element24=-41.000000	element25=25.000000 	element26=-22.000000	element27=-60.000000	element28=49.000000 	element29=95.000000 	element30=-94.000000	element31=-79.000000	
+element0=92.000000 	element1=84.000000 	element2=-120.000000	element3=-31.000000	element4=-2.000000 	element5=50.000000 	element6=-112.000000	element7=-38.000000	element8=-21.000000	element9=-123.000000	element10=94.000000 	element11=57.000000 	element12=112.000000	element13=-21.000000	element14=110.000000	element15=-60.000000	element16=80.000000 	element17=24.000000 	element18=-118.000000	element19=-102.000000	element20=91.000000 	element21=125.000000	element22=10.000000 	element23=-7.000000 	element24=7.000000  	element25=2.000000  	element26=-127.000000	element27=52.000000 	element28=111.000000	element29=-76.000000	element30=-78.000000	element31=-53.000000	
 The active vector length of RVV is 32
 4( 32(rv64gcv_VDIV.VV_8b) );
 Iterations;200000
@@ -9,5 +9,5 @@ Total Inst;25600000
 Total Ops;819200000
 Inst/Iter;128
 Ops/Iter;4096
-Seconds;11.6026
-GOps/sec;0.0706047
+Seconds;13.115
+GOps/sec;0.0624626

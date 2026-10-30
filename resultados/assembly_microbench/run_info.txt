@@ -1,5 +1,5 @@
-fecha:    Sun 18 Oct 15:12:06 CEST 2026
+fecha:    Fri 30 Oct 17:41:23 CET 2026
 VLEN:     256
-ITERS:    100000
+ITERS:    por subgrupo
 EXTRA:    zfh=true,zvfh=true
 TIMEOUT:  600

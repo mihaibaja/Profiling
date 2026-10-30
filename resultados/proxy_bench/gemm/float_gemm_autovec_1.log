@@ -7,4 +7,4 @@ Block offset          = 12
 Number of iterations  = 2
 Using MKL library     = off
 Solution validates
-Rate (MFlops/s): 0.372268  Avg time (s): 5.372471
+Rate (MFlops/s): 0.410671  Avg time (s): 4.870077

@@ -1,4 +1,4 @@
-init value0=-105.000000	init value1=-1.000000	init value2=-53.000000	init value3=78.000000	
+init value0=31.000000	init value1=-32.000000	init value2=127.000000	init value3=63.000000	
 Check if the v0 register has been written to
 element0=0.000000  	element1=0.000000  	element2=0.000000  	element3=0.000000  	
 4( 32(rv64gcv_VSE8.V_8b) );
@@ -7,5 +7,5 @@ Total Inst;25600000
 Total Ops;102400000
 Inst/Iter;128
 Ops/Iter;512
-Seconds;9.66647
-GOps/sec;0.0105933
+Seconds;10.8677
+GOps/sec;0.00942238

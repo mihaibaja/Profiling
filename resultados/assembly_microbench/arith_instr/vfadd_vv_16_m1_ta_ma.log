@@ -1,7 +1,7 @@
 The active vector length of RVV is 16
-init value0=9.601562	init value1=0.937500	init value2=2.330078	init value3=4.796875	init value4=8.273438	init value5=5.953125	init value6=8.570312	init value7=2.322266	init value8=7.000000	init value9=2.384766	init value10=7.519531	init value11=9.898438	init value12=8.218750	init value13=5.031250	init value14=0.334229	init value15=5.441406	
+init value0=0.618652	init value1=0.885742	init value2=0.687988	init value3=0.123169	init value4=8.523438	init value5=8.718750	init value6=1.062500	init value7=8.562500	init value8=7.289062	init value9=3.554688	init value10=9.328125	init value11=2.291016	init value12=9.531250	init value13=6.316406	init value14=2.058594	init value15=4.660156	
 Check if the v0 register has been written to
-element0=9.601562  	element1=0.937500  	element2=2.330078  	element3=4.796875  	element4=8.273438  	element5=5.953125  	element6=8.570312  	element7=2.322266  	element8=7.000000  	element9=2.384766  	element10=7.519531  	element11=9.898438  	element12=8.218750  	element13=5.031250  	element14=0.334229  	element15=5.441406  	
+element0=0.618652  	element1=0.885742  	element2=0.687988  	element3=0.123169  	element4=8.523438  	element5=8.718750  	element6=1.062500  	element7=8.562500  	element8=7.289062  	element9=3.554688  	element10=9.328125  	element11=2.291016  	element12=9.531250  	element13=6.316406  	element14=2.058594  	element15=4.660156  	
 The active vector length of RVV is 16
 4( 32(rv64gcv_VFADD.VV_16b) );
 Iterations;200000
@@ -9,5 +9,5 @@ Total Inst;25600000
 Total Ops;409600000
 Inst/Iter;128
 Ops/Iter;2048
-Seconds;13.1625
-GOps/sec;0.0311188
+Seconds;13.549
+GOps/sec;0.030231

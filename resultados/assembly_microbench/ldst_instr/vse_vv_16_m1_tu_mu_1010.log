@@ -1,4 +1,4 @@
-init value0=24920.000000	init value1=26328.000000	init value2=22242.000000	init value3=-31698.000000	init value4=-30866.000000	init value5=31474.000000	init value6=-26027.000000	init value7=-11339.000000	init value8=-1721.000000	init value9=-28694.000000	init value10=-2440.000000	init value11=24057.000000	init value12=-32680.000000	init value13=27755.000000	init value14=1712.000000	init value15=4167.000000	
+init value0=-12280.000000	init value1=24549.000000	init value2=27805.000000	init value3=31514.000000	init value4=-6698.000000	init value5=-17280.000000	init value6=78.000000	init value7=-236.000000	init value8=2640.000000	init value9=-22493.000000	init value10=12284.000000	init value11=-8477.000000	init value12=-5187.000000	init value13=9204.000000	init value14=31932.000000	init value15=23789.000000	
 Check if the v0 register has been written to
 element0=0.000000  	element1=0.000000  	element2=0.000000  	element3=0.000000  	element4=0.000000  	element5=0.000000  	element6=0.000000  	element7=0.000000  	element8=0.000000  	element9=0.000000  	element10=0.000000  	element11=0.000000  	element12=0.000000  	element13=0.000000  	element14=0.000000  	element15=0.000000  	
 4( 30(rv64gcv_VSE16.V_16b) );
@@ -7,5 +7,5 @@ Total Inst;24000000
 Total Ops;192000000
 Inst/Iter;120
 Ops/Iter;960
-Seconds;12.4712
-GOps/sec;0.0153954
+Seconds;44.7145
+GOps/sec;0.00429391

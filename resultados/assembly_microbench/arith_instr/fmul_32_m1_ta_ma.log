@@ -1,9 +1,9 @@
-init value0=9.406832	
+init value0=4.427492	
 4( 32(rv64gc_FMUL.S_32b) );
 Iterations;200000
 Total Inst;25600000
 Total Ops;25600000
 Inst/Iter;128
 Ops/Iter;128
-Seconds;0.507779
-GOps/sec;0.0504156
+Seconds;0.446609
+GOps/sec;0.0573208

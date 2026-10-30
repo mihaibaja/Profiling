@@ -1,9 +1,9 @@
-init value0=7.860150	
+init value0=7.968269	
 4( 32(rv64gc_FADD.S_32b) );
 Iterations;200000
 Total Inst;25600000
 Total Ops;25600000
 Inst/Iter;128
 Ops/Iter;128
-Seconds;0.538392
-GOps/sec;0.047549
+Seconds;0.488443
+GOps/sec;0.0524114

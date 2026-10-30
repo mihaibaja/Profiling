@@ -1,4 +1,4 @@
-init value0=918701177.000000	init value1=1504652696.000000	init value2=1061679381.000000	init value3=773306727.000000	init value4=2104412656.000000	init value5=585813256.000000	init value6=602750547.000000	init value7=630117571.000000	
+init value0=1797767863.000000	init value1=1606133220.000000	init value2=969239088.000000	init value3=932058899.000000	init value4=989973677.000000	init value5=1921048081.000000	init value6=2057789167.000000	init value7=1709197509.000000	
 Check if the v0 register has been written to
 element0=0.000000  	element1=0.000000  	element2=0.000000  	element3=0.000000  	element4=0.000000  	element5=0.000000  	element6=0.000000  	element7=0.000000  	
 4( 32(rv64gcv_VSE32.V_32b) );
@@ -7,5 +7,5 @@ Total Inst;25600000
 Total Ops;204800000
 Inst/Iter;128
 Ops/Iter;1024
-Seconds;9.62504
-GOps/sec;0.0212778
+Seconds;11.1096
+GOps/sec;0.0184345

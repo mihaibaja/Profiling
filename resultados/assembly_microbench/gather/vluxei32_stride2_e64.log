@@ -9,7 +9,7 @@ Total Elements;99200000
 Inst/Iter;124
 Elements/Iter;496
 Useful Elements/Iter;496
-Seconds;20.709551290
-GInst/sec;0.001197515
-GElements/sec;0.004790060
-Useful GElements/sec;0.004790060
+Seconds;20.202623593
+GInst/sec;0.001227563
+GElements/sec;0.004910253
+Useful GElements/sec;0.004910253

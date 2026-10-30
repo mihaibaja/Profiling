@@ -1,11 +1,11 @@
-init value0=-44.000000	init value1=107.000000	init value2=-19.000000	init value3=93.000000	init value4=106.000000	init value5=51.000000	init value6=83.000000	init value7=63.000000	init value8=-66.000000	init value9=-5.000000	init value10=-121.000000	init value11=5.000000	init value12=39.000000	init value13=29.000000	init value14=-95.000000	init value15=44.000000	init value16=104.000000	init value17=84.000000	init value18=71.000000	init value19=85.000000	init value20=-27.000000	init value21=92.000000	init value22=4.000000	init value23=38.000000	init value24=77.000000	init value25=76.000000	init value26=61.000000	init value27=-21.000000	init value28=58.000000	init value29=95.000000	init value30=64.000000	init value31=14.000000	
+init value0=-116.000000	init value1=-102.000000	init value2=101.000000	init value3=0.000000	init value4=80.000000	init value5=-118.000000	init value6=-83.000000	init value7=-5.000000	init value8=-84.000000	init value9=-21.000000	init value10=13.000000	init value11=23.000000	init value12=-36.000000	init value13=77.000000	init value14=46.000000	init value15=-20.000000	init value16=-104.000000	init value17=12.000000	init value18=84.000000	init value19=1.000000	init value20=48.000000	init value21=111.000000	init value22=-93.000000	init value23=-18.000000	init value24=-121.000000	init value25=102.000000	init value26=78.000000	init value27=19.000000	init value28=40.000000	init value29=54.000000	init value30=22.000000	init value31=-75.000000	
 Check if the v0 register has been written to
-element0=-44.000000	element1=107.000000	element2=-19.000000	element3=93.000000 	element4=106.000000	element5=51.000000 	element6=83.000000 	element7=63.000000 	element8=-66.000000	element9=-5.000000 	element10=-121.000000	element11=5.000000  	element12=39.000000 	element13=29.000000 	element14=-95.000000	element15=44.000000 	element16=104.000000	element17=84.000000 	element18=71.000000 	element19=85.000000 	element20=-27.000000	element21=92.000000 	element22=4.000000  	element23=38.000000 	element24=77.000000 	element25=76.000000 	element26=61.000000 	element27=-21.000000	element28=58.000000 	element29=95.000000 	element30=64.000000 	element31=14.000000 	
+element0=-116.000000	element1=-102.000000	element2=101.000000	element3=0.000000  	element4=80.000000 	element5=-118.000000	element6=-83.000000	element7=-5.000000 	element8=-84.000000	element9=-21.000000	element10=13.000000 	element11=23.000000 	element12=-36.000000	element13=77.000000 	element14=46.000000 	element15=-20.000000	element16=-104.000000	element17=12.000000 	element18=84.000000 	element19=1.000000  	element20=48.000000 	element21=111.000000	element22=-93.000000	element23=-18.000000	element24=-121.000000	element25=102.000000	element26=78.000000 	element27=19.000000 	element28=40.000000 	element29=54.000000 	element30=22.000000 	element31=-75.000000	
 4( 32(rv64gcv_VLE8.V_8b) );
 Iterations;200000
 Total Inst;25600000
 Total Ops;819200000
 Inst/Iter;128
 Ops/Iter;4096
-Seconds;9.33476
-GOps/sec;0.087758
+Seconds;11.1779
+GOps/sec;0.0732871

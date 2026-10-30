@@ -1,9 +1,9 @@
-init value0=1262201764.000000	
+init value0=1568282269.000000	
 32( 7(rv64gc_SW_32b) );
 Iterations;200000
 Total Inst;44800000
 Total Ops;44800000
 Inst/Iter;224
 Ops/Iter;224
-Seconds;0.240595
-GOps/sec;0.186205
+Seconds;0.39234
+GOps/sec;0.114187

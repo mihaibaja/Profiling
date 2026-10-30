@@ -6,6 +6,6 @@ Accumulator bits;64
 Elements;1024
 Iterations;10000
 Total Ops;10240000
-Seconds;0.374841586
-GElements/sec;0.027318207
+Seconds;0.464285385
+GElements/sec;0.022055400
 Result;-0.0146484375
