@@ -1,0 +1,6 @@
+python_libs/
+vendor/
+salida/
+.matplotlib/
+__pycache__/
+*.pyc
