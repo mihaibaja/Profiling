@@ -22,6 +22,12 @@ venv/
 
 # Posibles productos de compilacion en la raiz
 build/
+build-*/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+compile_commands.json
+.cache/
 *.o
 *.a
 *.so
@@ -29,5 +35,10 @@ build/
 *.x
 *.exe
 *.out
+*.gcda
+*.gcno
+*.profraw
+*.profdata
+*.dSYM/
 
 # NOTA: resultados/ se versiona a proposito, incluidos sus .json y .log.
