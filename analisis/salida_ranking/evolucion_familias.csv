@@ -1,0 +1,169 @@
+tipo,seccion,familia,nombre,clave,tamano,n_aplicaciones,n_aplicaciones_presentes,prevalencia_pct,frecuencia_media_pct,frecuencia_mediana_pct
+familia,configuration_setting,configuration_setting,configuration setting,configuration_setting/configuration_setting,tiny,12,12,100.0000,16.5897,14.2339
+familia,configuration_setting,configuration_setting,configuration setting,configuration_setting/configuration_setting,small,12,12,100.0000,16.5194,14.3696
+familia,configuration_setting,configuration_setting,configuration setting,configuration_setting/configuration_setting,medium,12,12,100.0000,16.4196,13.9643
+familia,configuration_setting,configuration_setting,configuration setting,configuration_setting/configuration_setting,large,12,12,100.0000,16.1497,13.8851
+familia,vector_floating_point,compare,compare,vector_floating_point/compare,tiny,12,4,33.3333,1.9988,0.0000
+familia,vector_floating_point,compare,compare,vector_floating_point/compare,small,12,4,33.3333,2.2876,0.0000
+familia,vector_floating_point,compare,compare,vector_floating_point/compare,medium,12,4,33.3333,2.4581,0.0000
+familia,vector_floating_point,compare,compare,vector_floating_point/compare,large,12,4,33.3333,2.4821,0.0000
+familia,vector_floating_point,merge,merge,vector_floating_point/merge,tiny,12,3,25.0000,0.1498,0.0000
+familia,vector_floating_point,merge,merge,vector_floating_point/merge,small,12,3,25.0000,0.1498,0.0000
+familia,vector_floating_point,merge,merge,vector_floating_point/merge,medium,12,3,25.0000,0.1497,0.0000
+familia,vector_floating_point,merge,merge,vector_floating_point/merge,large,12,3,25.0000,0.1496,0.0000
+familia,vector_floating_point,min_max,min max,vector_floating_point/min_max,tiny,12,4,33.3333,0.3933,0.0000
+familia,vector_floating_point,min_max,min max,vector_floating_point/min_max,small,12,4,33.3333,0.3870,0.0000
+familia,vector_floating_point,min_max,min max,vector_floating_point/min_max,medium,12,4,33.3333,0.3811,0.0000
+familia,vector_floating_point,min_max,min max,vector_floating_point/min_max,large,12,4,33.3333,0.3803,0.0000
+familia,vector_floating_point,move,move,vector_floating_point/move,tiny,12,6,50.0000,3.8554,0.0377
+familia,vector_floating_point,move,move,vector_floating_point/move,small,12,6,50.0000,4.0831,0.0018
+familia,vector_floating_point,move,move,vector_floating_point/move,medium,12,6,50.0000,4.2267,0.0001
+familia,vector_floating_point,move,move,vector_floating_point/move,large,12,6,50.0000,4.2469,0.0000
+familia,vector_floating_point,narrowing_type_convert,narrowing type convert,vector_floating_point/narrowing_type_convert,tiny,12,0,0.0000,0.0000,0.0000
+familia,vector_floating_point,narrowing_type_convert,narrowing type convert,vector_floating_point/narrowing_type_convert,small,12,0,0.0000,0.0000,0.0000
+familia,vector_floating_point,narrowing_type_convert,narrowing type convert,vector_floating_point/narrowing_type_convert,medium,12,0,0.0000,0.0000,0.0000
+familia,vector_floating_point,narrowing_type_convert,narrowing type convert,vector_floating_point/narrowing_type_convert,large,12,0,0.0000,0.0000,0.0000
+familia,vector_floating_point,sign_injection,sign injection,vector_floating_point/sign_injection,tiny,12,5,41.6667,0.7488,0.0000
+familia,vector_floating_point,sign_injection,sign injection,vector_floating_point/sign_injection,small,12,5,41.6667,0.7383,0.0000
+familia,vector_floating_point,sign_injection,sign injection,vector_floating_point/sign_injection,medium,12,5,41.6667,0.7436,0.0000
+familia,vector_floating_point,sign_injection,sign injection,vector_floating_point/sign_injection,large,12,5,41.6667,0.7480,0.0000
+familia,vector_floating_point,single_width_add_subtract,single width add subtract,vector_floating_point/single_width_add_subtract,tiny,12,8,66.6667,8.3917,4.4165
+familia,vector_floating_point,single_width_add_subtract,single width add subtract,vector_floating_point/single_width_add_subtract,small,12,8,66.6667,8.2794,4.0563
+familia,vector_floating_point,single_width_add_subtract,single width add subtract,vector_floating_point/single_width_add_subtract,medium,12,8,66.6667,8.1635,4.1568
+familia,vector_floating_point,single_width_add_subtract,single width add subtract,vector_floating_point/single_width_add_subtract,large,12,8,66.6667,8.1539,4.1926
+familia,vector_floating_point,single_width_fused_multiply_add,single width fused multiply add,vector_floating_point/single_width_fused_multiply_add,tiny,12,9,75.0000,7.3011,8.6971
+familia,vector_floating_point,single_width_fused_multiply_add,single width fused multiply add,vector_floating_point/single_width_fused_multiply_add,small,12,9,75.0000,7.2467,8.7110
+familia,vector_floating_point,single_width_fused_multiply_add,single width fused multiply add,vector_floating_point/single_width_fused_multiply_add,medium,12,9,75.0000,7.2145,8.7099
+familia,vector_floating_point,single_width_fused_multiply_add,single width fused multiply add,vector_floating_point/single_width_fused_multiply_add,large,12,9,75.0000,7.5608,8.7099
+familia,vector_floating_point,single_width_multiply_divide,single width multiply divide,vector_floating_point/single_width_multiply_divide,tiny,12,6,50.0000,5.5743,2.0101
+familia,vector_floating_point,single_width_multiply_divide,single width multiply divide,vector_floating_point/single_width_multiply_divide,small,12,6,50.0000,5.4248,1.0903
+familia,vector_floating_point,single_width_multiply_divide,single width multiply divide,vector_floating_point/single_width_multiply_divide,medium,12,6,50.0000,5.2555,0.2636
+familia,vector_floating_point,single_width_multiply_divide,single width multiply divide,vector_floating_point/single_width_multiply_divide,large,12,6,50.0000,5.2361,0.1472
+familia,vector_floating_point,single_width_type_convert,single width type convert,vector_floating_point/single_width_type_convert,tiny,12,5,41.6667,1.0623,0.0000
+familia,vector_floating_point,single_width_type_convert,single width type convert,vector_floating_point/single_width_type_convert,small,12,5,41.6667,1.0455,0.0000
+familia,vector_floating_point,single_width_type_convert,single width type convert,vector_floating_point/single_width_type_convert,medium,12,5,41.6667,1.0448,0.0000
+familia,vector_floating_point,single_width_type_convert,single width type convert,vector_floating_point/single_width_type_convert,large,12,5,41.6667,1.0483,0.0000
+familia,vector_floating_point,square_root,square root,vector_floating_point/square_root,tiny,12,3,25.0000,0.2303,0.0000
+familia,vector_floating_point,square_root,square root,vector_floating_point/square_root,small,12,3,25.0000,0.2240,0.0000
+familia,vector_floating_point,square_root,square root,vector_floating_point/square_root,medium,12,3,25.0000,0.2148,0.0000
+familia,vector_floating_point,square_root,square root,vector_floating_point/square_root,large,12,3,25.0000,0.2140,0.0000
+familia,vector_floating_point,widening_add_subtract,widening add subtract,vector_floating_point/widening_add_subtract,tiny,12,0,0.0000,0.0000,0.0000
+familia,vector_floating_point,widening_add_subtract,widening add subtract,vector_floating_point/widening_add_subtract,small,12,0,0.0000,0.0000,0.0000
+familia,vector_floating_point,widening_add_subtract,widening add subtract,vector_floating_point/widening_add_subtract,medium,12,0,0.0000,0.0000,0.0000
+familia,vector_floating_point,widening_add_subtract,widening add subtract,vector_floating_point/widening_add_subtract,large,12,0,0.0000,0.0000,0.0000
+familia,vector_floating_point,widening_type_convert,widening type convert,vector_floating_point/widening_type_convert,tiny,12,1,8.3333,0.0279,0.0000
+familia,vector_floating_point,widening_type_convert,widening type convert,vector_floating_point/widening_type_convert,small,12,1,8.3333,0.0151,0.0000
+familia,vector_floating_point,widening_type_convert,widening type convert,vector_floating_point/widening_type_convert,medium,12,1,8.3333,0.0037,0.0000
+familia,vector_floating_point,widening_type_convert,widening type convert,vector_floating_point/widening_type_convert,large,12,1,8.3333,0.0020,0.0000
+familia,vector_integer_arithmetic,bitwise_logical,bitwise logical,vector_integer_arithmetic/bitwise_logical,tiny,12,3,25.0000,0.3107,0.0000
+familia,vector_integer_arithmetic,bitwise_logical,bitwise logical,vector_integer_arithmetic/bitwise_logical,small,12,3,25.0000,0.2405,0.0000
+familia,vector_integer_arithmetic,bitwise_logical,bitwise logical,vector_integer_arithmetic/bitwise_logical,medium,12,3,25.0000,0.1776,0.0000
+familia,vector_integer_arithmetic,bitwise_logical,bitwise logical,vector_integer_arithmetic/bitwise_logical,large,12,3,25.0000,0.1688,0.0000
+familia,vector_integer_arithmetic,integer_compare,integer compare,vector_integer_arithmetic/integer_compare,tiny,12,3,25.0000,0.1197,0.0000
+familia,vector_integer_arithmetic,integer_compare,integer compare,vector_integer_arithmetic/integer_compare,small,12,3,25.0000,0.0517,0.0000
+familia,vector_integer_arithmetic,integer_compare,integer compare,vector_integer_arithmetic/integer_compare,medium,12,3,25.0000,0.0448,0.0000
+familia,vector_integer_arithmetic,integer_compare,integer compare,vector_integer_arithmetic/integer_compare,large,12,3,25.0000,0.0440,0.0000
+familia,vector_integer_arithmetic,integer_divide,integer divide,vector_integer_arithmetic/integer_divide,tiny,12,2,16.6667,0.0636,0.0000
+familia,vector_integer_arithmetic,integer_divide,integer divide,vector_integer_arithmetic/integer_divide,small,12,2,16.6667,0.0508,0.0000
+familia,vector_integer_arithmetic,integer_divide,integer divide,vector_integer_arithmetic/integer_divide,medium,12,2,16.6667,0.0394,0.0000
+familia,vector_integer_arithmetic,integer_divide,integer divide,vector_integer_arithmetic/integer_divide,large,12,2,16.6667,0.0378,0.0000
+familia,vector_integer_arithmetic,integer_extension,integer extension,vector_integer_arithmetic/integer_extension,tiny,12,0,0.0000,0.0000,0.0000
+familia,vector_integer_arithmetic,integer_extension,integer extension,vector_integer_arithmetic/integer_extension,small,12,0,0.0000,0.0000,0.0000
+familia,vector_integer_arithmetic,integer_extension,integer extension,vector_integer_arithmetic/integer_extension,medium,12,0,0.0000,0.0000,0.0000
+familia,vector_integer_arithmetic,integer_extension,integer extension,vector_integer_arithmetic/integer_extension,large,12,0,0.0000,0.0000,0.0000
+familia,vector_integer_arithmetic,integer_merge,integer merge,vector_integer_arithmetic/integer_merge,tiny,12,4,33.3333,0.7802,0.0000
+familia,vector_integer_arithmetic,integer_merge,integer merge,vector_integer_arithmetic/integer_merge,small,12,4,33.3333,0.6745,0.0000
+familia,vector_integer_arithmetic,integer_merge,integer merge,vector_integer_arithmetic/integer_merge,medium,12,4,33.3333,0.6500,0.0000
+familia,vector_integer_arithmetic,integer_merge,integer merge,vector_integer_arithmetic/integer_merge,large,12,4,33.3333,0.6378,0.0000
+familia,vector_integer_arithmetic,integer_min_max,integer min max,vector_integer_arithmetic/integer_min_max,tiny,12,1,8.3333,1.8322,0.0000
+familia,vector_integer_arithmetic,integer_min_max,integer min max,vector_integer_arithmetic/integer_min_max,small,12,1,8.3333,1.8494,0.0000
+familia,vector_integer_arithmetic,integer_min_max,integer min max,vector_integer_arithmetic/integer_min_max,medium,12,1,8.3333,1.8506,0.0000
+familia,vector_integer_arithmetic,integer_min_max,integer min max,vector_integer_arithmetic/integer_min_max,large,12,1,8.3333,1.8516,0.0000
+familia,vector_integer_arithmetic,integer_move,integer move,vector_integer_arithmetic/integer_move,tiny,12,9,75.0000,3.9496,1.3711
+familia,vector_integer_arithmetic,integer_move,integer move,vector_integer_arithmetic/integer_move,small,12,9,75.0000,3.7875,0.6271
+familia,vector_integer_arithmetic,integer_move,integer move,vector_integer_arithmetic/integer_move,medium,12,9,75.0000,3.6744,0.1829
+familia,vector_integer_arithmetic,integer_move,integer move,vector_integer_arithmetic/integer_move,large,12,9,75.0000,3.6419,0.1195
+familia,vector_integer_arithmetic,narrowing_right_shift,narrowing right shift,vector_integer_arithmetic/narrowing_right_shift,tiny,12,0,0.0000,0.0000,0.0000
+familia,vector_integer_arithmetic,narrowing_right_shift,narrowing right shift,vector_integer_arithmetic/narrowing_right_shift,small,12,0,0.0000,0.0000,0.0000
+familia,vector_integer_arithmetic,narrowing_right_shift,narrowing right shift,vector_integer_arithmetic/narrowing_right_shift,medium,12,0,0.0000,0.0000,0.0000
+familia,vector_integer_arithmetic,narrowing_right_shift,narrowing right shift,vector_integer_arithmetic/narrowing_right_shift,large,12,0,0.0000,0.0000,0.0000
+familia,vector_integer_arithmetic,single_width_add_subtract,single width add subtract,vector_integer_arithmetic/single_width_add_subtract,tiny,12,6,50.0000,1.7782,0.1736
+familia,vector_integer_arithmetic,single_width_add_subtract,single width add subtract,vector_integer_arithmetic/single_width_add_subtract,small,12,6,50.0000,1.7571,0.1736
+familia,vector_integer_arithmetic,single_width_add_subtract,single width add subtract,vector_integer_arithmetic/single_width_add_subtract,medium,12,6,50.0000,1.7459,0.0549
+familia,vector_integer_arithmetic,single_width_add_subtract,single width add subtract,vector_integer_arithmetic/single_width_add_subtract,large,12,6,50.0000,1.7483,0.0307
+familia,vector_integer_arithmetic,single_width_multiply,single width multiply,vector_integer_arithmetic/single_width_multiply,tiny,12,2,16.6667,0.1350,0.0000
+familia,vector_integer_arithmetic,single_width_multiply,single width multiply,vector_integer_arithmetic/single_width_multiply,small,12,2,16.6667,0.1222,0.0000
+familia,vector_integer_arithmetic,single_width_multiply,single width multiply,vector_integer_arithmetic/single_width_multiply,medium,12,2,16.6667,0.1109,0.0000
+familia,vector_integer_arithmetic,single_width_multiply,single width multiply,vector_integer_arithmetic/single_width_multiply,large,12,2,16.6667,0.1093,0.0000
+familia,vector_integer_arithmetic,single_width_multiply_add,single width multiply add,vector_integer_arithmetic/single_width_multiply_add,tiny,12,0,0.0000,0.0000,0.0000
+familia,vector_integer_arithmetic,single_width_multiply_add,single width multiply add,vector_integer_arithmetic/single_width_multiply_add,small,12,0,0.0000,0.0000,0.0000
+familia,vector_integer_arithmetic,single_width_multiply_add,single width multiply add,vector_integer_arithmetic/single_width_multiply_add,medium,12,0,0.0000,0.0000,0.0000
+familia,vector_integer_arithmetic,single_width_multiply_add,single width multiply add,vector_integer_arithmetic/single_width_multiply_add,large,12,0,0.0000,0.0000,0.0000
+familia,vector_integer_arithmetic,single_width_shift,single width shift,vector_integer_arithmetic/single_width_shift,tiny,12,5,41.6667,1.0125,0.0000
+familia,vector_integer_arithmetic,single_width_shift,single width shift,vector_integer_arithmetic/single_width_shift,small,12,5,41.6667,1.0011,0.0000
+familia,vector_integer_arithmetic,single_width_shift,single width shift,vector_integer_arithmetic/single_width_shift,medium,12,5,41.6667,0.9896,0.0000
+familia,vector_integer_arithmetic,single_width_shift,single width shift,vector_integer_arithmetic/single_width_shift,large,12,5,41.6667,0.9880,0.0000
+familia,vector_integer_arithmetic,widening_multiply,widening multiply,vector_integer_arithmetic/widening_multiply,tiny,12,0,0.0000,0.0000,0.0000
+familia,vector_integer_arithmetic,widening_multiply,widening multiply,vector_integer_arithmetic/widening_multiply,small,12,0,0.0000,0.0000,0.0000
+familia,vector_integer_arithmetic,widening_multiply,widening multiply,vector_integer_arithmetic/widening_multiply,medium,12,0,0.0000,0.0000,0.0000
+familia,vector_integer_arithmetic,widening_multiply,widening multiply,vector_integer_arithmetic/widening_multiply,large,12,0,0.0000,0.0000,0.0000
+familia,vector_loads_and_stores,indexed,indexed,vector_loads_and_stores/indexed,tiny,12,2,16.6667,1.2132,0.0000
+familia,vector_loads_and_stores,indexed,indexed,vector_loads_and_stores/indexed,small,12,2,16.6667,1.2166,0.0000
+familia,vector_loads_and_stores,indexed,indexed,vector_loads_and_stores/indexed,medium,12,2,16.6667,1.2334,0.0000
+familia,vector_loads_and_stores,indexed,indexed,vector_loads_and_stores/indexed,large,12,2,16.6667,1.2393,0.0000
+familia,vector_loads_and_stores,strided,strided,vector_loads_and_stores/strided,tiny,12,2,16.6667,1.1794,0.0000
+familia,vector_loads_and_stores,strided,strided,vector_loads_and_stores/strided,small,12,2,16.6667,1.1795,0.0000
+familia,vector_loads_and_stores,strided,strided,vector_loads_and_stores/strided,medium,12,2,16.6667,1.1795,0.0000
+familia,vector_loads_and_stores,strided,strided,vector_loads_and_stores/strided,large,12,2,16.6667,1.5331,0.0000
+familia,vector_loads_and_stores,unit_stride,unit stride,vector_loads_and_stores/unit_stride,tiny,12,12,100.0000,23.0277,18.1658
+familia,vector_loads_and_stores,unit_stride,unit stride,vector_loads_and_stores/unit_stride,small,12,12,100.0000,22.8605,18.1815
+familia,vector_loads_and_stores,unit_stride,unit stride,vector_loads_and_stores/unit_stride,medium,12,12,100.0000,22.7818,18.1818
+familia,vector_loads_and_stores,unit_stride,unit stride,vector_loads_and_stores/unit_stride,large,12,12,100.0000,22.9094,18.2143
+familia,vector_loads_and_stores,whole_register,whole register,vector_loads_and_stores/whole_register,tiny,12,3,25.0000,0.5105,0.0000
+familia,vector_loads_and_stores,whole_register,whole register,vector_loads_and_stores/whole_register,small,12,3,25.0000,0.5115,0.0000
+familia,vector_loads_and_stores,whole_register,whole register,vector_loads_and_stores/whole_register,medium,12,3,25.0000,0.5273,0.0000
+familia,vector_loads_and_stores,whole_register,whole register,vector_loads_and_stores/whole_register,large,12,3,25.0000,0.5332,0.0000
+familia,vector_mask,element_index,element index,vector_mask/element_index,tiny,12,0,0.0000,0.0000,0.0000
+familia,vector_mask,element_index,element index,vector_mask/element_index,small,12,0,0.0000,0.0000,0.0000
+familia,vector_mask,element_index,element index,vector_mask/element_index,medium,12,0,0.0000,0.0000,0.0000
+familia,vector_mask,element_index,element index,vector_mask/element_index,large,12,0,0.0000,0.0000,0.0000
+familia,vector_mask,logical,logical,vector_mask/logical,tiny,12,1,8.3333,1.5913,0.0000
+familia,vector_mask,logical,logical,vector_mask/logical,small,12,1,8.3333,1.8506,0.0000
+familia,vector_mask,logical,logical,vector_mask/logical,medium,12,1,8.3333,2.0274,0.0000
+familia,vector_mask,logical,logical,vector_mask/logical,large,12,1,8.3333,2.0521,0.0000
+familia,vector_mask,vcpop,vcpop,vector_mask/vcpop,tiny,12,1,8.3333,0.1117,0.0000
+familia,vector_mask,vcpop,vcpop,vector_mask/vcpop,small,12,1,8.3333,0.0080,0.0000
+familia,vector_mask,vcpop,vcpop,vector_mask/vcpop,medium,12,1,8.3333,0.0019,0.0000
+familia,vector_mask,vcpop,vcpop,vector_mask/vcpop,large,12,1,8.3333,0.0010,0.0000
+familia,vector_mask,vfirst,vfirst,vector_mask/vfirst,tiny,12,1,8.3333,1.5424,0.0000
+familia,vector_mask,vfirst,vfirst,vector_mask/vfirst,small,12,1,8.3333,1.8439,0.0000
+familia,vector_mask,vfirst,vfirst,vector_mask/vfirst,medium,12,1,8.3333,2.0256,0.0000
+familia,vector_mask,vfirst,vfirst,vector_mask/vfirst,large,12,1,8.3333,2.0511,0.0000
+familia,vector_permutation,floating_point_scalar_move,floating point scalar move,vector_permutation/floating_point_scalar_move,tiny,12,4,33.3333,2.3282,0.0000
+familia,vector_permutation,floating_point_scalar_move,floating point scalar move,vector_permutation/floating_point_scalar_move,small,12,4,33.3333,2.3328,0.0000
+familia,vector_permutation,floating_point_scalar_move,floating point scalar move,vector_permutation/floating_point_scalar_move,medium,12,4,33.3333,2.3494,0.0000
+familia,vector_permutation,floating_point_scalar_move,floating point scalar move,vector_permutation/floating_point_scalar_move,large,12,4,33.3333,2.3553,0.0000
+familia,vector_permutation,integer_scalar_move,integer scalar move,vector_permutation/integer_scalar_move,tiny,12,1,8.3333,0.0071,0.0000
+familia,vector_permutation,integer_scalar_move,integer scalar move,vector_permutation/integer_scalar_move,small,12,1,8.3333,0.0001,0.0000
+familia,vector_permutation,integer_scalar_move,integer scalar move,vector_permutation/integer_scalar_move,medium,12,1,8.3333,0.0000,0.0000
+familia,vector_permutation,integer_scalar_move,integer scalar move,vector_permutation/integer_scalar_move,large,12,1,8.3333,0.0000,0.0000
+familia,vector_permutation,slide,slide,vector_permutation/slide,tiny,12,2,16.6667,3.3404,0.0000
+familia,vector_permutation,slide,slide,vector_permutation/slide,small,12,2,16.6667,3.3634,0.0000
+familia,vector_permutation,slide,slide,vector_permutation/slide,medium,12,2,16.6667,3.3652,0.0000
+familia,vector_permutation,slide,slide,vector_permutation/slide,large,12,2,16.6667,3.3662,0.0000
+familia,vector_permutation,whole_register_move,whole register move,vector_permutation/whole_register_move,tiny,12,6,50.0000,5.7548,1.0633
+familia,vector_permutation,whole_register_move,whole register move,vector_permutation/whole_register_move,small,12,6,50.0000,5.8048,1.0638
+familia,vector_permutation,whole_register_move,whole register move,vector_permutation/whole_register_move,medium,12,6,50.0000,5.8405,1.0635
+familia,vector_permutation,whole_register_move,whole register move,vector_permutation/whole_register_move,large,12,6,50.0000,5.4468,1.0634
+familia,vector_reduction,single_width_floating_point,single width floating point,vector_reduction/single_width_floating_point,tiny,12,6,50.0000,3.0882,0.0143
+familia,vector_reduction,single_width_floating_point,single width floating point,vector_reduction/single_width_floating_point,small,12,6,50.0000,3.0928,0.0143
+familia,vector_reduction,single_width_floating_point,single width floating point,vector_reduction/single_width_floating_point,medium,12,6,50.0000,3.1093,0.0143
+familia,vector_reduction,single_width_floating_point,single width floating point,vector_reduction/single_width_floating_point,large,12,6,50.0000,2.9133,0.0143
+familia,vector_reduction,single_width_integer,single width integer,vector_reduction/single_width_integer,tiny,12,0,0.0000,0.0000,0.0000
+familia,vector_reduction,single_width_integer,single width integer,vector_reduction/single_width_integer,small,12,0,0.0000,0.0000,0.0000
+familia,vector_reduction,single_width_integer,single width integer,vector_reduction/single_width_integer,medium,12,0,0.0000,0.0000,0.0000
+familia,vector_reduction,single_width_integer,single width integer,vector_reduction/single_width_integer,large,12,0,0.0000,0.0000,0.0000
+familia,vector_reduction,widening_floating_point,widening floating point,vector_reduction/widening_floating_point,tiny,12,0,0.0000,0.0000,0.0000
+familia,vector_reduction,widening_floating_point,widening floating point,vector_reduction/widening_floating_point,small,12,0,0.0000,0.0000,0.0000
+familia,vector_reduction,widening_floating_point,widening floating point,vector_reduction/widening_floating_point,medium,12,0,0.0000,0.0000,0.0000
+familia,vector_reduction,widening_floating_point,widening floating point,vector_reduction/widening_floating_point,large,12,0,0.0000,0.0000,0.0000
