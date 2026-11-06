@@ -1,12 +1,9 @@
 {
   "generator": "RAVE",
-  "binary": "RiVEC/_swaptions/bin/swaptions_vector.exe",
+  "binary": "swaptions_vector.exe",
   "vlen_bits": 16384,
   "trace_extended": true,
   "accumulate_regions": false,
-  "RAW_DIST": true,
-  "WAW_DIST": true,
-  "WAR_DIST": true,
   "region_count": 1,
   "regions": [
     {
@@ -19,46 +16,208 @@
       "parent": null,
       "counters": {
         "moved_bytes": {
-          "total": 1902659391,
-          "scalar": 115505631,
-          "vector": 1787153760
+          "total": 1913447097,
+          "scalar": 117981881,
+          "vector": 1795465216
         },
         "flops": {
-          "total": 1401048576,
-          "scalar": 216572,
-          "vector": 1400832004
+          "total": 1417974471,
+          "scalar": 88775,
+          "vector": 1417885696
         },
         "global_stats": {
-          "avg_vl_elems": 294.777675,
-          "avg_vl_bits": 16374.370302,
-          "avg_lmul": 1.000013,
-          "avg_occupancy": 0.999409,
+          "avg_vl_elems": 320.044056,
+          "avg_vl_bits": 16374.562772,
+          "avg_lmul": 1,
+          "avg_occupancy": 0.999424,
           "vlen_bits": 16384,
-          "avg_vlmax_elems": 294.942338,
+          "avg_vlmax_elems": 320.191513,
           "tu_effective": 0,
-          "ta_effective": 4178,
-          "unique_vector_registers": 21
+          "ta_effective": 4096,
+          "unique_vector_registers": 31
         },
         "dependencies": {
           "scalar": {
-            "total": 971129,
-            "raw": 740816,
-            "waw": 86018,
-            "war": 144295
+            "total": 742799,
+            "raw": 742796,
+            "waw": 0,
+            "war": 3
           },
           "vector": {
-            "total": 16482484,
+            "total": 23168940,
             "raw": {
-              "count": 6854058,
-              "avg_dist": 2.584700
+              "count": 9778084,
+              "avg_dist": 26.058359,
+              "histogram": {
+                "1": 2315666,
+                "2": 1078028,
+                "3": 1100166,
+                "4": 835456,
+                "5-8": 1221632,
+                "9-16": 643712,
+                "17-32": 623744,
+                ">32": 1959680
+              },
+              "cdf": {
+                "1": 0.236822,
+                "2": 0.347071,
+                "4": 0.545027,
+                "8": 0.669962,
+                "16": 0.735794,
+                "32": 0.799584,
+                "64": 0.882199
+              },
+              "percentiles": {
+                "median": 4,
+                "p90": 74.520161,
+                "p99": 122.652016
+              }
             },
             "waw": {
-              "count": 4275075,
-              "avg_dist": 3.291269
+              "count": 6695551,
+              "avg_dist": 32.787502,
+              "histogram": {
+                "1": 1351308,
+                "2": 523654,
+                "3": 853253,
+                "4": 808576,
+                "5-8": 943749,
+                "9-16": 470656,
+                "17-32": 444160,
+                ">32": 1300195
+              },
+              "cdf": {
+                "1": 0.201822,
+                "2": 0.280031,
+                "4": 0.528230,
+                "8": 0.669182,
+                "16": 0.739476,
+                "32": 0.805812,
+                "64": 0.860220
+              },
+              "percentiles": {
+                "median": 4,
+                "p90": 82.929313,
+                "p99": 123.492931
+              }
             },
             "war": {
-              "count": 5353351,
-              "avg_dist": 4.820506
+              "count": 6695305,
+              "avg_dist": 121.452544,
+              "histogram": {
+                "1": 1308305,
+                "2": 918400,
+                "3": 932485,
+                "4": 733061,
+                "5-8": 716288,
+                "9-16": 591488,
+                "17-32": 349696,
+                ">32": 1145582
+              },
+              "cdf": {
+                "1": 0.195406,
+                "2": 0.332577,
+                "4": 0.581340,
+                "8": 0.688324,
+                "16": 0.776668,
+                "32": 0.828898,
+                "64": 0.887475
+              },
+              "percentiles": {
+                "median": 4,
+                "p90": 72.012501,
+                "p99": 122.401250
+              }
+            },
+            "class_pairs": {
+              "raw_counts": {
+                "load": {
+                  "store": 0,
+                  "int_arith": 1042,
+                  "fp_arith": 510592,
+                  "fused": 10112,
+                  "permutation": 0,
+                  "reduction": 0,
+                  "mask": 0,
+                  "vector_to_scalar": 0
+                },
+                "int_arith": {
+                  "store": 30720,
+                  "int_arith": 600972,
+                  "fp_arith": 460800,
+                  "fused": 0,
+                  "permutation": 0,
+                  "reduction": 0,
+                  "mask": 6,
+                  "vector_to_scalar": 0
+                },
+                "fp_arith": {
+                  "store": 207616,
+                  "int_arith": 345856,
+                  "fp_arith": 2238464,
+                  "fused": 400384,
+                  "permutation": 0,
+                  "reduction": 2048,
+                  "mask": 0,
+                  "vector_to_scalar": 0
+                },
+                "fused": {
+                  "store": 0,
+                  "int_arith": 19328,
+                  "fp_arith": 131840,
+                  "fused": 535808,
+                  "permutation": 30720,
+                  "reduction": 0,
+                  "mask": 0,
+                  "vector_to_scalar": 0
+                },
+                "permutation": {
+                  "store": 6144,
+                  "int_arith": 31744,
+                  "fp_arith": 87040,
+                  "fused": 70400,
+                  "permutation": 2048,
+                  "reduction": 0,
+                  "mask": 0,
+                  "vector_to_scalar": 0
+                },
+                "reduction": {
+                  "store": 2048,
+                  "int_arith": 0,
+                  "fp_arith": 0,
+                  "fused": 0,
+                  "permutation": 0,
+                  "reduction": 0,
+                  "mask": 0,
+                  "vector_to_scalar": 0
+                },
+                "mask": {
+                  "store": 0,
+                  "int_arith": 0,
+                  "fp_arith": 0,
+                  "fused": 0,
+                  "permutation": 0,
+                  "reduction": 0,
+                  "mask": 0,
+                  "vector_to_scalar": 0
+                },
+                "scalar_to_vector": {
+                  "store": 29696,
+                  "int_arith": 65536,
+                  "fp_arith": 441344,
+                  "fused": 255872,
+                  "permutation": 30720,
+                  "reduction": 2048,
+                  "mask": 0,
+                  "vector_to_scalar": 0
+                }
+              }
+            },
+            "parallelism_available": {
+              "2": 1.680146,
+              "4": 2.783437,
+              "8": 4.466782,
+              "16": 7.449831
             }
           }
         },
@@ -74,20 +233,20 @@
         "memory_addresses": {
         },
         "instructions_previous_version": {
-          "total": 46136447,
-          "scalar": 38975331,
-          "vsetvl": 147400,
-          "vector": 7013716,
+          "total": 45623655,
+          "scalar": 38497309,
+          "vsetvl": 43046,
+          "vector": 7083300,
           "sew": [
             {
               "sew": 8,
-              "instr": 152361,
-              "elems": 312035328,
+              "instr": 253732,
+              "elems": 519643136,
               "avg_vl": 2048,
               "elems_by_kind": {
-                "arith": 311951360,
+                "arith": 511229952,
                 "memory": {
-                  "unit_stride": 83968,
+                  "unit_stride": 8413184,
                   "strided": 0,
                   "indexed": 0
                 },
@@ -102,19 +261,19 @@
                   "broadcast_vf": 0,
                   "scalar_to_vector": 0,
                   "vector_to_scalar": 0,
-                  "scalar_result": 0,
+                  "scalar_result": 6,
                   "vsetvl_config": 0
                 },
                 "elements_affected": {
                   "broadcast_vx_consumed_elements": 0,
                   "broadcast_vf_consumed_elements": 0,
-                  "total_active_elements_processed": 312035328
+                  "total_active_elements_processed": 519643136
                 }
               },
               "movement_profile": {
                 "arithmetic_useful_ops": {
-                  "int_ops": 152320,
-                  "fp_ops": 0
+                  "int_ops": 249618,
+                  "fp_ops": 6
                 },
                 "categories": {
                   "slides": {
@@ -138,13 +297,13 @@
                     "vrf_bytes_written": 0
                   },
                   "whole_register": {
-                    "instr": 152361,
-                    "vrf_bytes_read": 311961600,
-                    "vrf_bytes_written": 312035328
+                    "instr": 249600,
+                    "vrf_bytes_read": 511180800,
+                    "vrf_bytes_written": 511180800
                   },
                   "mask_ops_scans": {
-                    "instr": 0,
-                    "vrf_bytes_read": 0,
+                    "instr": 6,
+                    "vrf_bytes_read": 12288,
                     "vrf_bytes_written": 0
                   },
                   "layout_conversions": {
@@ -157,15 +316,15 @@
               "policies": {
                 "policy_selection": {
                   "tu_instructions": 0,
-                  "ta_instructions": 152361,
+                  "ta_instructions": 253726,
                   "mu_masked_instructions": 0,
                   "ma_masked_instructions": 0
                 },
                 "preservation_pressure": {
                   "tail_preserved_elements": 0,
                   "mask_preserved_elements": 0,
-                  "active_written_elements": 312035328,
-                  "total_destination_elements": 312123392
+                  "active_written_elements": 519630848,
+                  "total_destination_elements": 519630848
                 }
               }
             },
@@ -351,13 +510,13 @@
             },
             {
               "sew": 64,
-              "instr": 6861355,
-              "elems": 1755451568,
-              "avg_vl": 255.846195,
+              "instr": 6829568,
+              "elems": 1747324928,
+              "avg_vl": 255.847065,
               "elems_by_kind": {
-                "arith": 1532067844,
+                "arith": 1523943424,
                 "memory": {
-                  "unit_stride": 223383724,
+                  "unit_stride": 223381504,
                   "strided": 0,
                   "indexed": 0
                 },
@@ -370,21 +529,21 @@
                 "events_count": {
                   "broadcast_vx": 284416,
                   "broadcast_vf": 442496,
-                  "scalar_to_vector": 1225601,
+                  "scalar_to_vector": 1227648,
                   "vector_to_scalar": 0,
                   "scalar_result": 0,
-                  "vsetvl_config": 147400
+                  "vsetvl_config": 43046
                 },
                 "elements_affected": {
                   "broadcast_vx_consumed_elements": 72810496,
                   "broadcast_vf_consumed_elements": 113278976,
-                  "total_active_elements_processed": 1755451568
+                  "total_active_elements_processed": 1747324928
                 }
               },
               "movement_profile": {
                 "arithmetic_useful_ops": {
-                  "int_ops": 1211008,
-                  "fp_ops": 4773633
+                  "int_ops": 1112704,
+                  "fp_ops": 4842240
                 },
                 "categories": {
                   "slides": {
@@ -418,24 +577,24 @@
                     "vrf_bytes_written": 0
                   },
                   "layout_conversions": {
-                    "instr": 150144,
-                    "vrf_bytes_read": 307494912,
-                    "vrf_bytes_written": 307494912
+                    "instr": 0,
+                    "vrf_bytes_read": 0,
+                    "vrf_bytes_written": 0
                   }
                 }
               },
               "policies": {
                 "policy_selection": {
                   "tu_instructions": 0,
-                  "ta_instructions": 6861355,
+                  "ta_instructions": 6829568,
                   "mu_masked_instructions": 0,
                   "ma_masked_instructions": 326528
                 },
                 "preservation_pressure": {
                   "tail_preserved_elements": 0,
                   "mask_preserved_elements": 0,
-                  "active_written_elements": 1707274416,
-                  "total_destination_elements": 1756518400
+                  "active_written_elements": 1699147776,
+                  "total_destination_elements": 1748369408
                 }
               }
             }
@@ -444,21 +603,20 @@
       },
       "instructions": {
         "configuration_setting": {
-          "vsetvli_counter": 144288,
-          "vsetivli_counter": 3112
+          "vsetvli_counter": 40998,
+          "vsetivli_counter": 2048
         },
         "vector_loads_and_stores": {
           "unit_stride": {
-            "vle64_v_counter": 491013,
-            "vse64_v_counter": 385701
+            "vle64_v_counter": 488960,
+            "vse64_v_counter": 385664
+          },
+          "fault_only_first": {
+            "vle8ff_v_counter": 12
           },
           "whole_register": {
-            "vl1re8_v_counter": 1,
-            "vl2re8_v_counter": 34,
-            "vl4re8_v_counter": 1,
-            "vs1r_v_counter": 1,
-            "vs2r_v_counter": 3,
-            "vs4r_v_counter": 1
+            "vl1re64_v_counter": 2048,
+            "vs1r_v_counter": 2048
           }
         },
         "vector_integer_arithmetic": {
@@ -477,6 +635,8 @@
             "vsrl_vv_counter": 61440
           },
           "integer_compare": {
+            "vmseq_vi_counter": 6,
+            "vmsne_vv_counter": 6,
             "vmslt_vv_counter": 30720
           },
           "single_width_multiply": {
@@ -489,9 +649,8 @@
             "vmerge_vvm_counter": 245760
           },
           "integer_move": {
-            "vmv_v_v_counter": 30720,
-            "vmv_v_x_counter": 101376,
-            "vmv_v_i_counter": 68608
+            "vmv_v_x_counter": 34816,
+            "vmv_v_i_counter": 67584
           }
         },
         "vector_floating_point": {
@@ -507,9 +666,9 @@
             "vfdiv_vv_counter": 30720
           },
           "single_width_fused_multiply_add": {
-            "vfmacc_vv_counter": 102272,
+            "vfmacc_vv_counter": 71552,
             "vfmacc_vf_counter": 19328,
-            "vfmadd_vv_counter": 576768
+            "vfmadd_vv_counter": 607488
           },
           "min_max": {
             "vfmin_vf_counter": 19328,
@@ -529,7 +688,7 @@
             "vfmerge_vfm_counter": 19328
           },
           "move": {
-            "vfmv_v_f_counter": 1124225
+            "vfmv_v_f_counter": 1190784
           },
           "single_width_type_convert": {
             "vfcvt_x_f_v_counter": 38656,
@@ -541,9 +700,20 @@
             "vfredosum_vs_counter": 2048
           }
         },
+        "vector_mask": {
+          "logical": {
+            "vmor_mm_counter": 6
+          },
+          "vfirst": {
+            "vfirst_m_counter": 6
+          }
+        },
         "vector_permutation": {
+          "floating_point_scalar_move": {
+            "vfmv_s_f_counter": 2048
+          },
           "whole_register_move": {
-            "vmv1r_v_counter": 152320
+            "vmv1r_v_counter": 249600
           }
         }
       }
