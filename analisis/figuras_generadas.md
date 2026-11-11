@@ -2,12 +2,13 @@
 
 ## 1. Figuras por benchmark (capítulos 3 y 4)
 
-Generadas por `analisis/generar_figuras.sh` (invoca a `rave-ext/utils/generate_figures.py`)
-a partir de los JSON de RAVE en `resultados/`. Al terminar, el mismo script ejecuta
-también el ranking de instrucciones (sección 2).
+Generadas por `analisis/generar_figuras.sh`, que recorre todos los JSON de
+`resultados/` (sin argumentos) e invoca a `rave-ext/utils/generate_figures.py`
+para cada uno. Al terminar, el mismo script ejecuta también el ranking de
+instrucciones (sección 2).
 
-Ubicación: `analisis/FIGURAS/<conjunto>/<BENCHMARK>/<region>/*.png`
-(actualmente `tiny`, `small` y `medium`; región `GLOBAL_REGION`).
+Ubicación: `analisis/FIGURAS/<carpeta de resultados>/<BENCHMARK>/<region>/*.png`
+(se replica la estructura de `resultados/`; región `GLOBAL_REGION`).
 Cada figura se omite si el JSON no contiene los datos que necesita.
 
 | Fichero | Contenido |
