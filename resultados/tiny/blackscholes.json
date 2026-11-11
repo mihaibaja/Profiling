@@ -16,8 +16,8 @@
       "parent": null,
       "counters": {
         "moved_bytes": {
-          "total": 119104223,
-          "scalar": 11686623,
+          "total": 119104418,
+          "scalar": 11686818,
           "vector": 107417600
         },
         "flops": {
@@ -130,87 +130,207 @@
               }
             },
             "class_pairs": {
-              "raw_counts": {
-                "load": {
-                  "store": 2500,
-                  "int_arith": 2600,
-                  "fp_arith": 15500,
-                  "fused": 8100,
-                  "permutation": 1800,
-                  "reduction": 0,
-                  "mask": 0,
-                  "vector_to_scalar": 0
-                },
-                "int_arith": {
-                  "store": 2100,
-                  "int_arith": 0,
-                  "fp_arith": 100,
-                  "fused": 0,
-                  "permutation": 100,
-                  "reduction": 0,
-                  "mask": 0,
-                  "vector_to_scalar": 0
-                },
-                "fp_arith": {
-                  "store": 10500,
-                  "int_arith": 200,
-                  "fp_arith": 0,
-                  "fused": 0,
-                  "permutation": 0,
-                  "reduction": 0,
-                  "mask": 0,
-                  "vector_to_scalar": 0
-                },
-                "fused": {
-                  "store": 3900,
-                  "int_arith": 0,
-                  "fp_arith": 0,
-                  "fused": 0,
-                  "permutation": 0,
-                  "reduction": 0,
-                  "mask": 0,
-                  "vector_to_scalar": 0
-                },
-                "permutation": {
-                  "store": 1000,
-                  "int_arith": 400,
-                  "fp_arith": 300,
-                  "fused": 300,
-                  "permutation": 100,
-                  "reduction": 0,
-                  "mask": 0,
-                  "vector_to_scalar": 0
-                },
-                "reduction": {
-                  "store": 0,
-                  "int_arith": 0,
-                  "fp_arith": 0,
-                  "fused": 0,
-                  "permutation": 0,
-                  "reduction": 0,
-                  "mask": 0,
-                  "vector_to_scalar": 0
-                },
-                "mask": {
-                  "store": 0,
-                  "int_arith": 0,
-                  "fp_arith": 0,
-                  "fused": 0,
-                  "permutation": 0,
-                  "reduction": 0,
-                  "mask": 0,
-                  "vector_to_scalar": 0
-                },
-                "scalar_to_vector": {
-                  "store": 1000,
-                  "int_arith": 400,
-                  "fp_arith": 1100,
-                  "fused": 3000,
-                  "permutation": 300,
-                  "reduction": 0,
-                  "mask": 0,
-                  "vector_to_scalar": 0
-                }
+              "load": {
+                "store": 2500,
+                "int_arith": 2600,
+                "fp_arith": 15500,
+                "fused": 8100,
+                "permutation": 1800,
+                "reduction": 0,
+                "mask": 0,
+                "vector_to_scalar": 0
+              },
+              "int_arith": {
+                "store": 2100,
+                "int_arith": 0,
+                "fp_arith": 100,
+                "fused": 0,
+                "permutation": 100,
+                "reduction": 0,
+                "mask": 0,
+                "vector_to_scalar": 0
+              },
+              "fp_arith": {
+                "store": 10500,
+                "int_arith": 200,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "vector_to_scalar": 0
+              },
+              "fused": {
+                "store": 3900,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "vector_to_scalar": 0
+              },
+              "permutation": {
+                "store": 1000,
+                "int_arith": 400,
+                "fp_arith": 300,
+                "fused": 300,
+                "permutation": 100,
+                "reduction": 0,
+                "mask": 0,
+                "vector_to_scalar": 0
+              },
+              "reduction": {
+                "store": 0,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "vector_to_scalar": 0
+              },
+              "mask": {
+                "store": 0,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "vector_to_scalar": 0
+              },
+              "scalar_to_vector": {
+                "store": 1000,
+                "int_arith": 400,
+                "fp_arith": 1100,
+                "fused": 3000,
+                "permutation": 300,
+                "reduction": 0,
+                "mask": 0,
+                "vector_to_scalar": 0
+              }
+            },
+            "instruction_overlap": {
+              "load": {
+                "load": 12500,
+                "store": 2500,
+                "int_arith": 1600,
+                "fp_arith": 9700,
+                "fused": 3600,
+                "permutation": 2100,
+                "reduction": 0,
+                "mask": 0,
+                "scalar_to_vector": 0,
+                "vector_to_scalar": 0
+              },
+              "store": {
+                "load": 13599,
+                "store": 2100,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 800,
+                "reduction": 0,
+                "mask": 0,
+                "scalar_to_vector": 5300,
+                "vector_to_scalar": 0
+              },
+              "int_arith": {
+                "load": 100,
+                "store": 2100,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 100,
+                "reduction": 0,
+                "mask": 0,
+                "scalar_to_vector": 0,
+                "vector_to_scalar": 0
+              },
+              "fp_arith": {
+                "load": 200,
+                "store": 10000,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "scalar_to_vector": 0,
+                "vector_to_scalar": 0
+              },
+              "fused": {
+                "load": 0,
+                "store": 3900,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "scalar_to_vector": 0,
+                "vector_to_scalar": 0
+              },
+              "permutation": {
+                "load": 1100,
+                "store": 400,
+                "int_arith": 600,
+                "fp_arith": 500,
+                "fused": 300,
+                "permutation": 100,
+                "reduction": 0,
+                "mask": 0,
+                "scalar_to_vector": 100,
+                "vector_to_scalar": 0
+              },
+              "reduction": {
+                "load": 0,
+                "store": 0,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "scalar_to_vector": 0,
+                "vector_to_scalar": 0
+              },
+              "mask": {
+                "load": 0,
+                "store": 0,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "scalar_to_vector": 0,
+                "vector_to_scalar": 0
+              },
+              "scalar_to_vector": {
+                "load": 4500,
+                "store": 800,
+                "int_arith": 100,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "scalar_to_vector": 200,
+                "vector_to_scalar": 0
+              },
+              "vector_to_scalar": {
+                "load": 0,
+                "store": 0,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "scalar_to_vector": 0,
+                "vector_to_scalar": 0
               }
             },
             "parallelism_available": {
@@ -233,8 +353,8 @@
         "memory_addresses": {
         },
         "instructions_previous_version": {
-          "total": 6973546,
-          "scalar": 6864145,
+          "total": 6974252,
+          "scalar": 6864851,
           "vsetvl": 30501,
           "vector": 78900,
           "sew": [
@@ -818,87 +938,207 @@
               }
             },
             "class_pairs": {
-              "raw_counts": {
-                "load": {
-                  "store": 0,
-                  "int_arith": 0,
-                  "fp_arith": 0,
-                  "fused": 0,
-                  "permutation": 0,
-                  "reduction": 0,
-                  "mask": 0,
-                  "vector_to_scalar": 0
-                },
-                "int_arith": {
-                  "store": 0,
-                  "int_arith": 0,
-                  "fp_arith": 0,
-                  "fused": 0,
-                  "permutation": 0,
-                  "reduction": 0,
-                  "mask": 0,
-                  "vector_to_scalar": 0
-                },
-                "fp_arith": {
-                  "store": 0,
-                  "int_arith": 0,
-                  "fp_arith": 0,
-                  "fused": 0,
-                  "permutation": 0,
-                  "reduction": 0,
-                  "mask": 0,
-                  "vector_to_scalar": 0
-                },
-                "fused": {
-                  "store": 0,
-                  "int_arith": 0,
-                  "fp_arith": 0,
-                  "fused": 0,
-                  "permutation": 0,
-                  "reduction": 0,
-                  "mask": 0,
-                  "vector_to_scalar": 0
-                },
-                "permutation": {
-                  "store": 0,
-                  "int_arith": 0,
-                  "fp_arith": 0,
-                  "fused": 0,
-                  "permutation": 0,
-                  "reduction": 0,
-                  "mask": 0,
-                  "vector_to_scalar": 0
-                },
-                "reduction": {
-                  "store": 0,
-                  "int_arith": 0,
-                  "fp_arith": 0,
-                  "fused": 0,
-                  "permutation": 0,
-                  "reduction": 0,
-                  "mask": 0,
-                  "vector_to_scalar": 0
-                },
-                "mask": {
-                  "store": 0,
-                  "int_arith": 0,
-                  "fp_arith": 0,
-                  "fused": 0,
-                  "permutation": 0,
-                  "reduction": 0,
-                  "mask": 0,
-                  "vector_to_scalar": 0
-                },
-                "scalar_to_vector": {
-                  "store": 0,
-                  "int_arith": 0,
-                  "fp_arith": 0,
-                  "fused": 0,
-                  "permutation": 0,
-                  "reduction": 0,
-                  "mask": 0,
-                  "vector_to_scalar": 0
-                }
+              "load": {
+                "store": 0,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "vector_to_scalar": 0
+              },
+              "int_arith": {
+                "store": 0,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "vector_to_scalar": 0
+              },
+              "fp_arith": {
+                "store": 0,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "vector_to_scalar": 0
+              },
+              "fused": {
+                "store": 0,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "vector_to_scalar": 0
+              },
+              "permutation": {
+                "store": 0,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "vector_to_scalar": 0
+              },
+              "reduction": {
+                "store": 0,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "vector_to_scalar": 0
+              },
+              "mask": {
+                "store": 0,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "vector_to_scalar": 0
+              },
+              "scalar_to_vector": {
+                "store": 0,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "vector_to_scalar": 0
+              }
+            },
+            "instruction_overlap": {
+              "load": {
+                "load": 0,
+                "store": 0,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "scalar_to_vector": 0,
+                "vector_to_scalar": 0
+              },
+              "store": {
+                "load": 0,
+                "store": 0,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "scalar_to_vector": 0,
+                "vector_to_scalar": 0
+              },
+              "int_arith": {
+                "load": 0,
+                "store": 0,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "scalar_to_vector": 0,
+                "vector_to_scalar": 0
+              },
+              "fp_arith": {
+                "load": 0,
+                "store": 0,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "scalar_to_vector": 0,
+                "vector_to_scalar": 0
+              },
+              "fused": {
+                "load": 0,
+                "store": 0,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "scalar_to_vector": 0,
+                "vector_to_scalar": 0
+              },
+              "permutation": {
+                "load": 0,
+                "store": 0,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "scalar_to_vector": 0,
+                "vector_to_scalar": 0
+              },
+              "reduction": {
+                "load": 0,
+                "store": 0,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "scalar_to_vector": 0,
+                "vector_to_scalar": 0
+              },
+              "mask": {
+                "load": 0,
+                "store": 0,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "scalar_to_vector": 0,
+                "vector_to_scalar": 0
+              },
+              "scalar_to_vector": {
+                "load": 0,
+                "store": 0,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "scalar_to_vector": 0,
+                "vector_to_scalar": 0
+              },
+              "vector_to_scalar": {
+                "load": 0,
+                "store": 0,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "scalar_to_vector": 0,
+                "vector_to_scalar": 0
               }
             },
             "parallelism_available": {
@@ -1411,87 +1651,207 @@
               }
             },
             "class_pairs": {
-              "raw_counts": {
-                "load": {
-                  "store": 2500,
-                  "int_arith": 2600,
-                  "fp_arith": 15500,
-                  "fused": 8100,
-                  "permutation": 1800,
-                  "reduction": 0,
-                  "mask": 0,
-                  "vector_to_scalar": 0
-                },
-                "int_arith": {
-                  "store": 2100,
-                  "int_arith": 0,
-                  "fp_arith": 100,
-                  "fused": 0,
-                  "permutation": 100,
-                  "reduction": 0,
-                  "mask": 0,
-                  "vector_to_scalar": 0
-                },
-                "fp_arith": {
-                  "store": 10500,
-                  "int_arith": 200,
-                  "fp_arith": 0,
-                  "fused": 0,
-                  "permutation": 0,
-                  "reduction": 0,
-                  "mask": 0,
-                  "vector_to_scalar": 0
-                },
-                "fused": {
-                  "store": 3900,
-                  "int_arith": 0,
-                  "fp_arith": 0,
-                  "fused": 0,
-                  "permutation": 0,
-                  "reduction": 0,
-                  "mask": 0,
-                  "vector_to_scalar": 0
-                },
-                "permutation": {
-                  "store": 1000,
-                  "int_arith": 400,
-                  "fp_arith": 300,
-                  "fused": 300,
-                  "permutation": 100,
-                  "reduction": 0,
-                  "mask": 0,
-                  "vector_to_scalar": 0
-                },
-                "reduction": {
-                  "store": 0,
-                  "int_arith": 0,
-                  "fp_arith": 0,
-                  "fused": 0,
-                  "permutation": 0,
-                  "reduction": 0,
-                  "mask": 0,
-                  "vector_to_scalar": 0
-                },
-                "mask": {
-                  "store": 0,
-                  "int_arith": 0,
-                  "fp_arith": 0,
-                  "fused": 0,
-                  "permutation": 0,
-                  "reduction": 0,
-                  "mask": 0,
-                  "vector_to_scalar": 0
-                },
-                "scalar_to_vector": {
-                  "store": 1000,
-                  "int_arith": 400,
-                  "fp_arith": 1100,
-                  "fused": 3000,
-                  "permutation": 300,
-                  "reduction": 0,
-                  "mask": 0,
-                  "vector_to_scalar": 0
-                }
+              "load": {
+                "store": 2500,
+                "int_arith": 2600,
+                "fp_arith": 15500,
+                "fused": 8100,
+                "permutation": 1800,
+                "reduction": 0,
+                "mask": 0,
+                "vector_to_scalar": 0
+              },
+              "int_arith": {
+                "store": 2100,
+                "int_arith": 0,
+                "fp_arith": 100,
+                "fused": 0,
+                "permutation": 100,
+                "reduction": 0,
+                "mask": 0,
+                "vector_to_scalar": 0
+              },
+              "fp_arith": {
+                "store": 10500,
+                "int_arith": 200,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "vector_to_scalar": 0
+              },
+              "fused": {
+                "store": 3900,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "vector_to_scalar": 0
+              },
+              "permutation": {
+                "store": 1000,
+                "int_arith": 400,
+                "fp_arith": 300,
+                "fused": 300,
+                "permutation": 100,
+                "reduction": 0,
+                "mask": 0,
+                "vector_to_scalar": 0
+              },
+              "reduction": {
+                "store": 0,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "vector_to_scalar": 0
+              },
+              "mask": {
+                "store": 0,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "vector_to_scalar": 0
+              },
+              "scalar_to_vector": {
+                "store": 1000,
+                "int_arith": 400,
+                "fp_arith": 1100,
+                "fused": 3000,
+                "permutation": 300,
+                "reduction": 0,
+                "mask": 0,
+                "vector_to_scalar": 0
+              }
+            },
+            "instruction_overlap": {
+              "load": {
+                "load": 12500,
+                "store": 2500,
+                "int_arith": 1600,
+                "fp_arith": 9700,
+                "fused": 3600,
+                "permutation": 2100,
+                "reduction": 0,
+                "mask": 0,
+                "scalar_to_vector": 0,
+                "vector_to_scalar": 0
+              },
+              "store": {
+                "load": 13599,
+                "store": 2100,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 800,
+                "reduction": 0,
+                "mask": 0,
+                "scalar_to_vector": 5300,
+                "vector_to_scalar": 0
+              },
+              "int_arith": {
+                "load": 100,
+                "store": 2100,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 100,
+                "reduction": 0,
+                "mask": 0,
+                "scalar_to_vector": 0,
+                "vector_to_scalar": 0
+              },
+              "fp_arith": {
+                "load": 200,
+                "store": 10000,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "scalar_to_vector": 0,
+                "vector_to_scalar": 0
+              },
+              "fused": {
+                "load": 0,
+                "store": 3900,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "scalar_to_vector": 0,
+                "vector_to_scalar": 0
+              },
+              "permutation": {
+                "load": 1100,
+                "store": 400,
+                "int_arith": 600,
+                "fp_arith": 500,
+                "fused": 300,
+                "permutation": 100,
+                "reduction": 0,
+                "mask": 0,
+                "scalar_to_vector": 100,
+                "vector_to_scalar": 0
+              },
+              "reduction": {
+                "load": 0,
+                "store": 0,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "scalar_to_vector": 0,
+                "vector_to_scalar": 0
+              },
+              "mask": {
+                "load": 0,
+                "store": 0,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "scalar_to_vector": 0,
+                "vector_to_scalar": 0
+              },
+              "scalar_to_vector": {
+                "load": 4500,
+                "store": 800,
+                "int_arith": 100,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "scalar_to_vector": 200,
+                "vector_to_scalar": 0
+              },
+              "vector_to_scalar": {
+                "load": 0,
+                "store": 0,
+                "int_arith": 0,
+                "fp_arith": 0,
+                "fused": 0,
+                "permutation": 0,
+                "reduction": 0,
+                "mask": 0,
+                "scalar_to_vector": 0,
+                "vector_to_scalar": 0
               }
             },
             "parallelism_available": {

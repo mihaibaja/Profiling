@@ -228,8 +228,8 @@
         "memory_addresses": {
         },
         "instructions_previous_version": {
-          "total": 325988927,
-          "scalar": 325070927,
+          "total": 325988929,
+          "scalar": 325070929,
           "vsetvl": 102000,
           "vector": 816000,
           "sew": [

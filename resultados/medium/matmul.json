@@ -16,8 +16,8 @@
       "parent": null,
       "counters": {
         "moved_bytes": {
-          "total": 738376705,
-          "scalar": 469941249,
+          "total": 738376723,
+          "scalar": 469941267,
           "vector": 268435456
         },
         "flops": {
@@ -228,8 +228,8 @@
         "memory_addresses": {
         },
         "instructions_previous_version": {
-          "total": 195612938,
-          "scalar": 195088648,
+          "total": 195612952,
+          "scalar": 195088662,
           "vsetvl": 131073,
           "vector": 393217,
           "sew": [

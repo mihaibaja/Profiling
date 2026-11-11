@@ -16,8 +16,8 @@
       "parent": null,
       "counters": {
         "moved_bytes": {
-          "total": 6425079445,
-          "scalar": 5958797055,
+          "total": 6425079231,
+          "scalar": 5958796841,
           "vector": 466282390
         },
         "flops": {
@@ -238,8 +238,8 @@
           }
         },
         "instructions_previous_version": {
-          "total": 3067584923,
-          "scalar": 3023216286,
+          "total": 3067584764,
+          "scalar": 3023216127,
           "vsetvl": 8582026,
           "vector": 35786611,
           "sew": [
@@ -1296,8 +1296,8 @@
       "parent": "GLOBAL_REGION",
       "counters": {
         "moved_bytes": {
-          "total": 914205919,
-          "scalar": 537805999,
+          "total": 914205705,
+          "scalar": 537805785,
           "vector": 376399920
         },
         "flops": {
@@ -1518,8 +1518,8 @@
           }
         },
         "instructions_previous_version": {
-          "total": 340429758,
-          "scalar": 302789642,
+          "total": 340429601,
+          "scalar": 302789485,
           "vsetvl": 6339186,
           "vector": 31300930,
           "sew": [
