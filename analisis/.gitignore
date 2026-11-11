@@ -1,0 +1,5 @@
+# Dependencias y artefactos locales para generar las figuras
+# (creados por preparar_entorno.sh; no forman parte del repositorio)
+python_libs/
+vendor/
+.matplotlib/

@@ -30,4 +30,9 @@ for archivo in "$CARPETA"/*; do
     fi
 done
 
+# Ranking de instrucciones: lee todos los JSON de ../resultados y escribe
+# sus CSV y figuras en salida_ranking/.
+echo "Generando ranking de instrucciones..."
+python3 ranking_instrucciones.py
+
 echo "Procesamiento completado."

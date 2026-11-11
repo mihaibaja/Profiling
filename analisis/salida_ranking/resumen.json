@@ -5,8 +5,8 @@
   "aplicaciones": 148,
   "aplicaciones_con_datos": 114,
   "configuraciones": 192,
-  "instrucciones": 126,
-  "familias": 42,
+  "instrucciones": 133,
+  "familias": 44,
   "secciones": [
     "configuration_setting",
     "vector_loads_and_stores",
